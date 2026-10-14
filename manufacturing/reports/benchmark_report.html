@@ -224,18 +224,18 @@
         <div class="stats-grid">
             <div class="stat-card">
                 <div class="stat-label">LLM Calls Avoided</div>
-                <div class="stat-value text-success">76.0%</div>
-                <div class="stat-sub"><strong class="text-success">38 calls saved</strong> out of 50 total</div>
+                <div class="stat-value text-success">74.0%</div>
+                <div class="stat-sub"><strong class="text-success">37 calls saved</strong> out of 50 total</div>
             </div>
             <div class="stat-card">
                 <div class="stat-label">Autonomous Jev Decisions</div>
-                <div class="stat-value text-accent">76.0%</div>
-                <div class="stat-sub">38 direct routes | 12 LLM fallbacks</div>
+                <div class="stat-value text-accent">74.0%</div>
+                <div class="stat-sub">37 direct routes | 13 LLM fallbacks</div>
             </div>
             <div class="stat-card">
                 <div class="stat-label">Avg. Latency Reduction</div>
-                <div class="stat-value text-success">80.8%</div>
-                <div class="stat-sub">985ms (LLM) → 190ms (Jev-First)</div>
+                <div class="stat-value text-success">91.7%</div>
+                <div class="stat-sub">982ms (LLM) → 82ms (Jev-First)</div>
             </div>
             <div class="stat-card">
                 <div class="stat-label">Routing Accuracy</div>
@@ -261,26 +261,26 @@
                         <tr>
                             <td><strong>LLM Calls</strong></td>
                             <td>50</td>
-                            <td>12</td>
-                            <td class="text-success"><strong>-38 (76.0%)</strong></td>
+                            <td>13</td>
+                            <td class="text-success"><strong>-37 (74.0%)</strong></td>
                         </tr>
                         <tr>
                             <td><strong>Autonomous Fast-Path</strong></td>
                             <td>0</td>
-                            <td>38 (76.0%)</td>
-                            <td class="text-accent"><strong>+38 decisions</strong></td>
+                            <td>37 (74.0%)</td>
+                            <td class="text-accent"><strong>+37 decisions</strong></td>
                         </tr>
                         <tr>
                             <td><strong>Average Latency</strong></td>
-                            <td>985 ms</td>
-                            <td>190 ms</td>
-                            <td class="text-success"><strong>-796 ms</strong></td>
+                            <td>982 ms</td>
+                            <td>82 ms</td>
+                            <td class="text-success"><strong>-900 ms</strong></td>
                         </tr>
                         <tr>
                             <td><strong>Total Run Duration</strong></td>
-                            <td>49.3 s</td>
-                            <td>9.5 s</td>
-                            <td class="text-success"><strong>-39.8 s</strong></td>
+                            <td>49.1 s</td>
+                            <td>4.1 s</td>
+                            <td class="text-success"><strong>-45.0 s</strong></td>
                         </tr>
                         <tr>
                             <td><strong>Accuracy</strong></td>
@@ -291,8 +291,8 @@
                         <tr>
                             <td><strong>Est. Total Cost</strong></td>
                             <td>$0.00750</td>
-                            <td>$0.00290</td>
-                            <td class="text-success"><strong>-$0.00460 (61.3%)</strong></td>
+                            <td>$0.00305</td>
+                            <td class="text-success"><strong>-$0.00445 (59.3%)</strong></td>
                         </tr>
                     </tbody>
                 </table>
@@ -304,12 +304,12 @@
                     How incoming incident tickets were resolved in the Jev-First workflow:
                 </p>
                 <div class="progress-bar-wrap">
-                    <div class="progress-jev" style="width: 76.0%;" title="Jev Autonomous: 76.0%"></div>
-                    <div class="progress-llm" style="width: 24.0%;" title="LLM Fallback: 24.0%"></div>
+                    <div class="progress-jev" style="width: 74.0%;" title="Jev Autonomous: 74.0%"></div>
+                    <div class="progress-llm" style="width: 26.0%;" title="LLM Fallback: 26.0%"></div>
                 </div>
                 <div style="display: flex; justify-content: space-between; font-size: 12px; margin-bottom: 20px;">
-                    <span style="color: #34d399;">⚡ Jev Autonomous: <strong>38 (76.0%)</strong></span>
-                    <span style="color: #a78bfa;">🤖 Gemini Fallback: <strong>12 (24.0%)</strong></span>
+                    <span style="color: #34d399;">⚡ Jev Autonomous: <strong>37 (74.0%)</strong></span>
+                    <span style="color: #a78bfa;">🤖 Gemini Fallback: <strong>13 (26.0%)</strong></span>
                 </div>
 
                 <div class="card-title" style="margin-top: 16px;">🏭 Real Manufacturing Dataset</div>
@@ -357,8 +357,8 @@
             <td class="desc-cell" title="When trying to release the pipe (HDP pipe, 50m long and 2 "diameter) stuck in the support mesh, the master loader and his assistant pull the pipe to release it, when the pipe is released hits the lateral part of the cheekbone and the eyelid worker's right generating the described injury.">When trying to release the pipe (HDP pipe, 50m long and 2 "diameter) stuck in the support mesh, the ...</td>
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(34211ms)</span></td>
-            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(209ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(33998ms)</span></td>
+            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(1ms)</span></td>
         </tr>
         
         <tr>
@@ -366,8 +366,8 @@
             <td class="desc-cell" title="While preparing the rice for the lunch of the day, when moving the pot # 60 - 35 Kg of weight including the contents - to evacuate the residual water of the cooking of the rice, when positioning the pot on a jaba it tilts backwards spilling some 200 ml of hot water on the cook's leg. The cook immediately after the event applies first aid, pouring cold water on the area of ​​the injury and go to the medical post for evaluation.">While preparing the rice for the lunch of the day, when moving the pot # 60 - 35 Kg of weight includ...</td>
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(311ms)</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="tag tag-llm">🤖 LLM</span> <span class="dim">(409ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(310ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="tag tag-llm">🤖 LLM</span> <span class="dim">(306ms)</span></td>
         </tr>
         
         <tr>
@@ -375,8 +375,8 @@
             <td class="desc-cell" title="Project of Vazante that carried out sediment collection of current in the South of Mata target, in the drainage of Serra do Garrote. team that was composed of 04 members of the WCA company, being the S.r.s Leandro, and Jehovânio. they were moving from one collection point to another, inside a shallow drainage, they saw the bee carton, the reaction was to move away from the box as quickly as possible to avoid the stings, they ran about 50 meters, looking for a safe area, to exit the radius of attack of the bees, but the S.S. and Breno), were attacked and consequently they suffered 02 stings, in the belly and Jehovah in the hand, verified that there was no type of allergic reaction, returned with the normal activities.">Project of Vazante that carried out sediment collection of current in the South of Mata target, in t...</td>
             <td><span class="badge badge-risk">Bees</span></td>
             <td><span class="badge badge-team">workplace_safety</span></td>
-            <td><span class="badge badge-danger">✗</span> general_operations <span class="dim">(305ms)</span></td>
-            <td><span class="badge badge-success">✓</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(126ms)</span></td>
+            <td><span class="badge badge-danger">✗</span> general_operations <span class="dim">(308ms)</span></td>
+            <td><span class="badge badge-success">✓</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(1ms)</span></td>
         </tr>
         
         <tr>
@@ -385,7 +385,7 @@
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
             <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(310ms)</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="tag tag-llm">🤖 LLM</span> <span class="dim">(411ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="tag tag-llm">🤖 LLM</span> <span class="dim">(307ms)</span></td>
         </tr>
         
         <tr>
@@ -393,8 +393,8 @@
             <td class="desc-cell" title="When observing the pulp overflow of the overflow reception drawer of the thickener, the filter operator approaches to verify the operation of the C7-26 pump, making sure that it was stopped. So press the keypad to start the pump and not getting the start, proceeds to remove the guard and manipulates the motor - pump transmission strips, being left hand imprisoned between the pulley of motor and transmission belt">When observing the pulp overflow of the overflow reception drawer of the thickener, the filter opera...</td>
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(304ms)</span></td>
-            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(138ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(309ms)</span></td>
+            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(2ms)</span></td>
         </tr>
         
         <tr>
@@ -402,8 +402,8 @@
             <td class="desc-cell" title="At the conclusion of the unloading of ore with the AMP-819 plate tipper, in the pit 01, the driver notices that a stretch of support mesh is stuck in the hopper hatch; then the driver gets off his equipment (with the hopper lifted) to remove with his hands this mesh, when generating force, fine particles of rock fall and one of them is impregnated in the eye of the injured. At the time of the incident, the injured person used his measuring glasses and did not have any surcharges.">At the conclusion of the unloading of ore with the AMP-819 plate tipper, in the pit 01, the driver n...</td>
             <td><span class="badge badge-risk">Projection</span></td>
             <td><span class="badge badge-team">equipment_machinery</span></td>
-            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="dim">(305ms)</span></td>
-            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(102ms)</span></td>
+            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="dim">(309ms)</span></td>
+            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(2ms)</span></td>
         </tr>
         
         <tr>
@@ -411,8 +411,8 @@
             <td class="desc-cell" title="The operator was in the center (Demag IV), performing maintenance. When transporting the hydraulic cylinder with the help of another operator the official was unbalanced coming the cylinder that carried to press his finger (Left thumb) against the pillar of support of the oven specified below (figure).">The operator was in the center (Demag IV), performing maintenance. When transporting the hydraulic c...</td>
             <td><span class="badge badge-risk">Pressed</span></td>
             <td><span class="badge badge-team">equipment_machinery</span></td>
-            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="dim">(305ms)</span></td>
-            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(112ms)</span></td>
+            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="dim">(307ms)</span></td>
+            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(1ms)</span></td>
         </tr>
         
         <tr>
@@ -421,7 +421,7 @@
             <td><span class="badge badge-risk">Manual Tools</span></td>
             <td><span class="badge badge-team">equipment_machinery</span></td>
             <td><span class="badge badge-success">✓</span> equipment_machinery <span class="dim">(308ms)</span></td>
-            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="tag tag-llm">🤖 LLM</span> <span class="dim">(412ms)</span></td>
+            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="tag tag-llm">🤖 LLM</span> <span class="dim">(310ms)</span></td>
         </tr>
         
         <tr>
@@ -430,7 +430,7 @@
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
             <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(307ms)</span></td>
-            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(110ms)</span></td>
+            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(2ms)</span></td>
         </tr>
         
         <tr>
@@ -439,7 +439,7 @@
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
             <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(307ms)</span></td>
-            <td><span class="badge badge-danger">✗</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(96ms)</span></td>
+            <td><span class="badge badge-danger">✗</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(2ms)</span></td>
         </tr>
         
         <tr>
@@ -447,8 +447,8 @@
             <td class="desc-cell" title="Approx. 18:40 hours, Mr. Luis maintenance team of mobile equipment, adjusted a bolt of the front loader J005A, at which time his face is impacted by the key used for this activity, producing a slight cut in the surface of the face. He is transferred to the medical service, attended and registered.">Approx. 18:40 hours, Mr. Luis maintenance team of mobile equipment, adjusted a bolt of the front loa...</td>
             <td><span class="badge badge-risk">Cut</span></td>
             <td><span class="badge badge-team">equipment_machinery</span></td>
-            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="dim">(302ms)</span></td>
-            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(97ms)</span></td>
+            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="dim">(308ms)</span></td>
+            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(2ms)</span></td>
         </tr>
         
         <tr>
@@ -456,8 +456,8 @@
             <td class="desc-cell" title="Performing carpentry work, the collaborator hit the second finger of the left hand with the hammer, which he held with his right hand, causing a bruise at the height of the nail. The evaluation was carried out at the medical center of the unit, the final diagnosis being contusion on the finger.">Performing carpentry work, the collaborator hit the second finger of the left hand with the hammer, ...</td>
             <td><span class="badge badge-risk">Manual Tools</span></td>
             <td><span class="badge badge-team">equipment_machinery</span></td>
-            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="dim">(307ms)</span></td>
-            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(102ms)</span></td>
+            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="dim">(308ms)</span></td>
+            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(2ms)</span></td>
         </tr>
         
         <tr>
@@ -466,7 +466,7 @@
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
             <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(307ms)</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="tag tag-llm">🤖 LLM</span> <span class="dim">(466ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="tag tag-llm">🤖 LLM</span> <span class="dim">(311ms)</span></td>
         </tr>
         
         <tr>
@@ -474,8 +474,8 @@
             <td class="desc-cell" title="Once the ore loading in the LT-30 locomotive was completed; the penultimate car derails (7th car), by the presence of fragment of rock in the railway line, (weight of the car with mineral 8 tons), and to get it back on track the mining car, the victim makes use of a metal tube (length 1.20 meters and 4 "diameter) to maneuver and reposition the mining car; at that moment the metallic tube loses stability and imprisons the victim's hand against the strut of the mining car. The collaborator at the time of the event towards the use of his leather gloves.">Once the ore loading in the LT-30 locomotive was completed; the penultimate car derails (7th car), b...</td>
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(307ms)</span></td>
-            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(153ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(312ms)</span></td>
+            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(2ms)</span></td>
         </tr>
         
         <tr>
@@ -483,8 +483,8 @@
             <td class="desc-cell" title="During execution of drilling on the target - Bolt BRJCLDD0006, made by the company SERVITECFORACO - probe 25, at 09:45 on July 9, 2016, the official Josimar da Silva, in the moment of the maneuver to fish material, when removing the feeder of water, during movement of the winch realized that the safety chain was loose and could curl in the rod. In performing the chain removal movement, he placed his left hand between the hose and the cap of the hydraulic plate. With the unlocking of the inner tube there was an abrupt movement of the chain, pushing his hand towards the hydraulic plate, causing an injury to the ring finger of this hand. The lesion caused a cut in the 4th Quirodactyl, with a need for suture of 3 points to close the cut.">During execution of drilling on the target - Bolt BRJCLDD0006, made by the company SERVITECFORACO - ...</td>
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(304ms)</span></td>
-            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(100ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(309ms)</span></td>
+            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(2ms)</span></td>
         </tr>
         
         <tr>
@@ -492,8 +492,8 @@
             <td class="desc-cell" title="During the preparation for the scaffolding activity, the employee was loading the pieces to the designated place where he had his finger pressed between the metal pieces that were being moved.">During the preparation for the scaffolding activity, the employee was loading the pieces to the desi...</td>
             <td><span class="badge badge-risk">Pressed</span></td>
             <td><span class="badge badge-team">equipment_machinery</span></td>
-            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="dim">(303ms)</span></td>
-            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(115ms)</span></td>
+            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="dim">(308ms)</span></td>
+            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(1ms)</span></td>
         </tr>
         
         <tr>
@@ -502,7 +502,7 @@
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
             <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(307ms)</span></td>
-            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(104ms)</span></td>
+            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(1ms)</span></td>
         </tr>
         
         <tr>
@@ -510,8 +510,8 @@
             <td class="desc-cell" title="At a time when two assistants were carrying a bag of cement weighing 42.5 kg to the lamp of the loader - suspended about 10 cm from the floor, the left foot of one of the assistants slid and hit the edge of the baton.">At a time when two assistants were carrying a bag of cement weighing 42.5 kg to the lamp of the load...</td>
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(309ms)</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="tag tag-llm">🤖 LLM</span> <span class="dim">(457ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(308ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="tag tag-llm">🤖 LLM</span> <span class="dim">(310ms)</span></td>
         </tr>
         
         <tr>
@@ -519,8 +519,8 @@
             <td class="desc-cell" title="In the geological reconnaissance activity, in the farm of Mr. Lázaro, the team composed by Felipe and Divino de Morais, in normal activity encountered a ciliary forest, as they needed to enter the forest to verify a rock outcrop which was the front, the Divine realized the opening of the access with machete. At that moment, took a bite from his neck. There were no more attacks, no allergic reaction, and continued work normally. With the work completed, leaving the forest for the same access, the Divine assistant was attacked by a snake and suffered a sting in the forehead. At that moment they moved away from the area. It was verified that there was no type of allergic reaction and returned with normal activities.">In the geological reconnaissance activity, in the farm of Mr. Lázaro, the team composed by Felipe an...</td>
             <td><span class="badge badge-risk">Bees</span></td>
             <td><span class="badge badge-team">workplace_safety</span></td>
-            <td><span class="badge badge-success">✓</span> workplace_safety <span class="dim">(309ms)</span></td>
-            <td><span class="badge badge-success">✓</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(118ms)</span></td>
+            <td><span class="badge badge-success">✓</span> workplace_safety <span class="dim">(306ms)</span></td>
+            <td><span class="badge badge-success">✓</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(2ms)</span></td>
         </tr>
         
         <tr>
@@ -528,8 +528,8 @@
             <td class="desc-cell" title="Project of Vazante that carried out sediment collection of current in the South of Mata target, in the drainage of Serra do Garrote. team that was composed of 04 members of the WCA company, being the S.r.s Leandro, and Jehovânio. they were moving from one collection point to another, inside a shallow drainage, they saw the bee carton, the reaction was to move away from the box as quickly as possible to avoid the stings, they ran about 50 meters, looking for a safe area, to exit the radius of attack of the bees, but the S.S. and Breno), were attacked and consequently they suffered 02 stings, in the belly and Jehovah in the hand, verified that there was no type of allergic reaction, returned with the normal activities.">Project of Vazante that carried out sediment collection of current in the South of Mata target, in t...</td>
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(305ms)</span></td>
-            <td><span class="badge badge-danger">✗</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(2ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(310ms)</span></td>
+            <td><span class="badge badge-danger">✗</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(1ms)</span></td>
         </tr>
         
         <tr>
@@ -537,8 +537,8 @@
             <td class="desc-cell" title="During the execution of the soil sampling task, in the Potions area, around 3:00 pm Pablo was moving on the bite and was bitten by a right elbow wasp over the sleeve uniform. He was using at the time of the incident all the PPE needed for the activity. The employee was evaluated by the team who found it to be a mild injury with localized swelling. The employee reported that he did not feel any pain and that he could continue the activity.">During the execution of the soil sampling task, in the Potions area, around 3:00 pm Pablo was moving...</td>
             <td><span class="badge badge-risk">Venomous Animals</span></td>
             <td><span class="badge badge-team">workplace_safety</span></td>
-            <td><span class="badge badge-success">✓</span> workplace_safety <span class="dim">(307ms)</span></td>
-            <td><span class="badge badge-success">✓</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(131ms)</span></td>
+            <td><span class="badge badge-success">✓</span> workplace_safety <span class="dim">(308ms)</span></td>
+            <td><span class="badge badge-success">✓</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(1ms)</span></td>
         </tr>
         
         <tr>
@@ -546,8 +546,8 @@
             <td class="desc-cell" title="As the employee cleaned the thermal recovery boiler using an air boom, the hose loosened from the pipe connection, drawing a jet of compressed air toward his right ear, causing impact noise.">As the employee cleaned the thermal recovery boiler using an air boom, the hose loosened from the pi...</td>
             <td><span class="badge badge-risk">Pressurized Systems</span></td>
             <td><span class="badge badge-team">chemical_process</span></td>
-            <td><span class="badge badge-success">✓</span> chemical_process <span class="dim">(306ms)</span></td>
-            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(111ms)</span></td>
+            <td><span class="badge badge-success">✓</span> chemical_process <span class="dim">(307ms)</span></td>
+            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(1ms)</span></td>
         </tr>
         
         <tr>
@@ -555,8 +555,8 @@
             <td class="desc-cell" title="Team of the VMS Project performed soil collection on the Xixás target with 3 members. When the teams were moving from one collection point to another, Mr. Fabio was ahead of the team, stinging behind Robson and Manoel da Silva. near the collection point were surprised by a swarm of bees that was inside a I play near the ground, with no visibility in the woods and no hissing noise. Fabio passed by the stump, but Robson and Manoel da Silva were attacked by the bees. Robson had a sting in his left arm over his uniform and Manoel da Silva had a prick in his lip as his screen ripped as he tangled in the branches during the escape.">Team of the VMS Project performed soil collection on the Xixás target with 3 members. When the teams...</td>
             <td><span class="badge badge-risk">Venomous Animals</span></td>
             <td><span class="badge badge-team">workplace_safety</span></td>
-            <td><span class="badge badge-success">✓</span> workplace_safety <span class="dim">(308ms)</span></td>
-            <td><span class="badge badge-success">✓</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(110ms)</span></td>
+            <td><span class="badge badge-success">✓</span> workplace_safety <span class="dim">(307ms)</span></td>
+            <td><span class="badge badge-success">✓</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(1ms)</span></td>
         </tr>
         
         <tr>
@@ -564,8 +564,8 @@
             <td class="desc-cell" title="During the discharge of waste, the operator proceeds to remove a bag that was under the hose rolled, in this circumstance one of the ends of the hose moves in the direction of the face of the driver, projecting the liquid contained in it and impacting it on the ear and part of the face.">During the discharge of waste, the operator proceeds to remove a bag that was under the hose rolled,...</td>
             <td><span class="badge badge-risk">Chemical substances</span></td>
             <td><span class="badge badge-team">chemical_process</span></td>
-            <td><span class="badge badge-success">✓</span> chemical_process <span class="dim">(307ms)</span></td>
-            <td><span class="badge badge-success">✓</span> chemical_process <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(204ms)</span></td>
+            <td><span class="badge badge-success">✓</span> chemical_process <span class="dim">(308ms)</span></td>
+            <td><span class="badge badge-success">✓</span> chemical_process <span class="tag tag-llm">🤖 LLM</span> <span class="dim">(309ms)</span></td>
         </tr>
         
         <tr>
@@ -573,8 +573,8 @@
             <td class="desc-cell" title="The employee reports that upon initiating 615 RLC front loading activity while performing the emulsion preparation for use there was a displacement of a small rock fragment from the ceiling reaching his left forearm">The employee reports that upon initiating 615 RLC front loading activity while performing the emulsi...</td>
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(309ms)</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="tag tag-llm">🤖 LLM</span> <span class="dim">(414ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(310ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="tag tag-llm">🤖 LLM</span> <span class="dim">(311ms)</span></td>
         </tr>
         
         <tr>
@@ -582,8 +582,8 @@
             <td class="desc-cell" title="When performing cleaning activity of the area near the 042-TC-06 - Grinding the employee was handling a block of triangular shaped rock measuring (b = 53cm x h = 42cm x e = 12cm). During the movement, he lost his balance by falling with the rock on the thumb of his left hand, injuring him.">When performing cleaning activity of the area near the 042-TC-06 - Grinding the employee was handlin...</td>
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(309ms)</span></td>
-            <td><span class="badge badge-danger">✗</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(96ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(307ms)</span></td>
+            <td><span class="badge badge-danger">✗</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(3ms)</span></td>
         </tr>
         
         <tr>
@@ -592,7 +592,7 @@
             <td><span class="badge badge-risk">Bees</span></td>
             <td><span class="badge badge-team">workplace_safety</span></td>
             <td><span class="badge badge-success">✓</span> workplace_safety <span class="dim">(308ms)</span></td>
-            <td><span class="badge badge-success">✓</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(101ms)</span></td>
+            <td><span class="badge badge-success">✓</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(2ms)</span></td>
         </tr>
         
         <tr>
@@ -600,8 +600,8 @@
             <td class="desc-cell" title="During the activity of chuteo of ore in hopper OP5; the operator of the locomotive parks his equipment under the hopper to fill the first car, it is at this moment that when it was blowing out to release the load, a mud flow suddenly appears with the presence of rock fragments; the personnel that was in the direction of the flow was covered with mud.">During the activity of chuteo of ore in hopper OP5; the operator of the locomotive parks his equipme...</td>
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(309ms)</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="tag tag-llm">🤖 LLM</span> <span class="dim">(418ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(307ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="tag tag-llm">🤖 LLM</span> <span class="dim">(310ms)</span></td>
         </tr>
         
         <tr>
@@ -609,8 +609,8 @@
             <td class="desc-cell" title="The injured and his collaborators at the time of making the 4 "HDPE pipe, which was to be used for hydraulic filling, is released, causing one of the ends of the pipe to impact on the lip, causing an injury . Apparently the support 1 deconcentrates and releases a little the pipe, this action generates that the pipe presented with the rubber of the victaúlica copla, is released generating the impact previously described. The pipe was empty without hydraulic load.">The injured and his collaborators at the time of making the 4 "HDPE pipe, which was to be used for h...</td>
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(303ms)</span></td>
-            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(99ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(309ms)</span></td>
+            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(3ms)</span></td>
         </tr>
         
         <tr>
@@ -618,8 +618,8 @@
             <td class="desc-cell" title="During the execution of the area cleaning activity using a hoe, the employee hit against a fixed metal structure in the area, coming to reach the abdomen on the left.">During the execution of the area cleaning activity using a hoe, the employee hit against a fixed met...</td>
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(307ms)</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="tag tag-llm">🤖 LLM</span> <span class="dim">(407ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(308ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="tag tag-llm">🤖 LLM</span> <span class="dim">(308ms)</span></td>
         </tr>
         
         <tr>
@@ -627,8 +627,8 @@
             <td class="desc-cell" title="Approx. at 11:22 am there is a leakage of sulfur dioxide (SO2) from section 20/30 due to water seal blowing due to overpressure of the acid plant, at that moment there were 13 collaborators of CORMEI companies, EISSA and COSAPI doing work near the impacted area; who were evacuated to the medical center for their care, then returned to their usual work.">Approx. at 11:22 am there is a leakage of sulfur dioxide (SO2) from section 20/30 due to water seal ...</td>
             <td><span class="badge badge-risk">Pressurized Systems / Chemical Substances</span></td>
             <td><span class="badge badge-team">chemical_process</span></td>
-            <td><span class="badge badge-success">✓</span> chemical_process <span class="dim">(309ms)</span></td>
-            <td><span class="badge badge-success">✓</span> chemical_process <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(101ms)</span></td>
+            <td><span class="badge badge-success">✓</span> chemical_process <span class="dim">(306ms)</span></td>
+            <td><span class="badge badge-success">✓</span> chemical_process <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(2ms)</span></td>
         </tr>
         
         <tr>
@@ -636,8 +636,8 @@
             <td class="desc-cell" title="Being 05:30 am. Approximately Marco and Isidro TORRES they were performing the pipe standardization of the CX 771 / CX-983 Nv. 1940; in moments that Marco lifts the air pipe over the spike, this seat and the pipe impacts on the worker's safety guard.">Being 05:30 am. Approximately Marco and Isidro TORRES they were performing the pipe standardization ...</td>
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(307ms)</span></td>
-            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(95ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(310ms)</span></td>
+            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(2ms)</span></td>
         </tr>
         
         <tr>
@@ -646,7 +646,7 @@
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
             <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(309ms)</span></td>
-            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(96ms)</span></td>
+            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(1ms)</span></td>
         </tr>
         
         <tr>
@@ -655,7 +655,7 @@
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
             <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(309ms)</span></td>
-            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(98ms)</span></td>
+            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(2ms)</span></td>
         </tr>
         
         <tr>
@@ -663,8 +663,8 @@
             <td class="desc-cell" title="At 21:15 hours on 07/18/2016, the collaborator Warrin (welder), when trying to inspect a cracking point in the INLET of the G2143 laminator, slips and falls to the same level hitting his face and hand , he was immediately transferred to the medical service for evaluation.">At 21:15 hours on 07/18/2016, the collaborator Warrin (welder), when trying to inspect a cracking po...</td>
             <td><span class="badge badge-risk">Fall prevention (same level)</span></td>
             <td><span class="badge badge-team">workplace_safety</span></td>
-            <td><span class="badge badge-success">✓</span> workplace_safety <span class="dim">(305ms)</span></td>
-            <td><span class="badge badge-success">✓</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(98ms)</span></td>
+            <td><span class="badge badge-success">✓</span> workplace_safety <span class="dim">(306ms)</span></td>
+            <td><span class="badge badge-success">✓</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(2ms)</span></td>
         </tr>
         
         <tr>
@@ -672,8 +672,8 @@
             <td class="desc-cell" title="Once the topographic survey in the Stp. 440 (East zone), the victim and his co-worker, decide to continue with their work in the Stp. 440 (West), for this the injured person walks behind his co-worker (10 to 15 meters), when arriving at the loading zone (intersection Rpa 175 and St 440) the injured person asks the sccop operator to stop to pass, once the equipment is stopped, the victim passes behind his partner stuck to the gable, trying to avoid the accumulation of water, when he takes the third step into the puddle, the injured person steps on the false and falls to the floor, causing the injury .">Once the topographic survey in the Stp. 440 (East zone), the victim and his co-worker, decide to con...</td>
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(309ms)</span></td>
-            <td><span class="badge badge-danger">✗</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(107ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(310ms)</span></td>
+            <td><span class="badge badge-danger">✗</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(1ms)</span></td>
         </tr>
         
         <tr>
@@ -681,8 +681,8 @@
             <td class="desc-cell" title="When moving in the field to make geological mapping, the prospector Marcos who was accompanied by the geologist Manoel stooped to deviate from the vegetation, at that moment, received a whistling sting in the ring finger of his right hand. There was no allergic reaction and activities followed normally after the event.">When moving in the field to make geological mapping, the prospector Marcos who was accompanied by th...</td>
             <td><span class="badge badge-risk">Bees</span></td>
             <td><span class="badge badge-team">workplace_safety</span></td>
-            <td><span class="badge badge-success">✓</span> workplace_safety <span class="dim">(304ms)</span></td>
-            <td><span class="badge badge-success">✓</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(142ms)</span></td>
+            <td><span class="badge badge-success">✓</span> workplace_safety <span class="dim">(308ms)</span></td>
+            <td><span class="badge badge-success">✓</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(1ms)</span></td>
         </tr>
         
         <tr>
@@ -690,8 +690,8 @@
             <td class="desc-cell" title="In moments when the 02 collaborators carried out the inspection of the conveyor belt No. 3 from the tail pulley when they were at the height of the load polymer No. 372, the Maslucan collaborator heard a noise where note that the belt was moving towards the tail pulley, 4 "fragmentos mineral fragments are projected towards the access of the ramp impacting the 2 collaborators, being evacuated to the medical post.">In moments when the 02 collaborators carried out the inspection of the conveyor belt No. 3 from the ...</td>
             <td><span class="badge badge-risk">Projection of fragments</span></td>
             <td><span class="badge badge-team">equipment_machinery</span></td>
-            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="dim">(309ms)</span></td>
-            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(104ms)</span></td>
+            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="dim">(306ms)</span></td>
+            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(1ms)</span></td>
         </tr>
         
         <tr>
@@ -699,8 +699,8 @@
             <td class="desc-cell" title="In circumstances that a dump truck laden with ore entered to unload backwards in a curve in the upper part of via La Laquia, the operator did not notice the unevenness in the road (approximately one meter) approaching the edge and overturning the truck on its right side. The operator traveled alone in the truck and made use of the safety belt, helmet and glasses at the time of the accident. During the unloading process, there were two squares that were 25 m from the accident site. The test of alcohotest to the operator was negative.">In circumstances that a dump truck laden with ore entered to unload backwards in a curve in the uppe...</td>
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(306ms)</span></td>
-            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(104ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(308ms)</span></td>
+            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(1ms)</span></td>
         </tr>
         
         <tr>
@@ -708,8 +708,8 @@
             <td class="desc-cell" title="At times when the mill operator proceeded to remove the vitaulic flange connecting the suction pipe to the pump housing 8B; with the intention of de-sanding the system, when removing the flange, the mineral pulp comes out under pressure and impacts on the face and wrist of his left hand generating the lesion described. At the time of the accident, both the secondary mill No. 4 and the pumps 8A and 8B were blocked for maintenance work and the mill operator used his safety glasses.">At times when the mill operator proceeded to remove the vitaulic flange connecting the suction pipe ...</td>
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(307ms)</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="tag tag-llm">🤖 LLM</span> <span class="dim">(412ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(304ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="tag tag-llm">🤖 LLM</span> <span class="dim">(310ms)</span></td>
         </tr>
         
         <tr>
@@ -717,8 +717,8 @@
             <td class="desc-cell" title="In circumstance, the AHK-903 license plate (Empresa which serves the supervision of CMA, carried out the field inspections in the upper bank 4288, when unexpectedly when climbing through the operational access (positive ramp), It slides in an excavated area of ​​approximately 3 meters high, remaining in position with the front part on the floor. The occupants of the vehicle made use of the safety belt and all the complete epps.">In circumstance, the AHK-903 license plate (Empresa which serves the supervision of CMA, carried out...</td>
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(309ms)</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="tag tag-llm">🤖 LLM</span> <span class="dim">(408ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(306ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="tag tag-llm">🤖 LLM</span> <span class="dim">(308ms)</span></td>
         </tr>
         
         <tr>
@@ -727,7 +727,7 @@
             <td><span class="badge badge-risk">Projection</span></td>
             <td><span class="badge badge-team">equipment_machinery</span></td>
             <td><span class="badge badge-success">✓</span> equipment_machinery <span class="dim">(309ms)</span></td>
-            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(115ms)</span></td>
+            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(1ms)</span></td>
         </tr>
         
         <tr>
@@ -735,8 +735,8 @@
             <td class="desc-cell" title="In circumstances that the worker prepared food in the electric pot, by not ensuring the lid falls on his head causing the injury described.">In circumstances that the worker prepared food in the electric pot, by not ensuring the lid falls on...</td>
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(310ms)</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="tag tag-llm">🤖 LLM</span> <span class="dim">(407ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(308ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="tag tag-llm">🤖 LLM</span> <span class="dim">(307ms)</span></td>
         </tr>
         
         <tr>
@@ -744,8 +744,8 @@
             <td class="desc-cell" title="On leaving the Company the employee stumbled onto the exit ladder of the building and fell 3 steps, causing twisting of the ankle and grating on the cinnamon">On leaving the Company the employee stumbled onto the exit ladder of the building and fell 3 steps, ...</td>
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(308ms)</span></td>
-            <td><span class="badge badge-danger">✗</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(103ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(309ms)</span></td>
+            <td><span class="badge badge-danger">✗</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(1ms)</span></td>
         </tr>
         
         <tr>
@@ -753,8 +753,8 @@
             <td class="desc-cell" title="In moments that the worker-mechanic was the workshop of maintenance, the wire of his mining lamp is hooked with a drill hole (4.0 Kg) that was on the work table of the workshop, which fell 1.m and impacted his left foot causing a minor bruise. At the time of the accident the collaborator used his safety boots with steel toecap.">In moments that the worker-mechanic was the workshop of maintenance, the wire of his mining lamp is ...</td>
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(309ms)</span></td>
-            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(94ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(306ms)</span></td>
+            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(1ms)</span></td>
         </tr>
         
         <tr>
@@ -762,8 +762,8 @@
             <td class="desc-cell" title="After parking a van next to a cluster of wooden sleepers and boards, the driver, on descending, stepped on a board in which an iron nail protruded 11/2 "long, which he did not identify as the board was submerged in a puddle of water. This accident caused a minor wound on the sole of the left foot. At the time of the accident the worker was wearing safety boots.">After parking a van next to a cluster of wooden sleepers and boards, the driver, on descending, step...</td>
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(307ms)</span></td>
-            <td><span class="badge badge-danger">✗</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(113ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(311ms)</span></td>
+            <td><span class="badge badge-danger">✗</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(1ms)</span></td>
         </tr>
         
         <tr>
@@ -772,7 +772,7 @@
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
             <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(309ms)</span></td>
-            <td><span class="badge badge-success">✓</span> general_operations <span class="tag tag-llm">🤖 LLM</span> <span class="dim">(410ms)</span></td>
+            <td><span class="badge badge-success">✓</span> general_operations <span class="tag tag-llm">🤖 LLM</span> <span class="dim">(309ms)</span></td>
         </tr>
         
         <tr>
@@ -780,8 +780,8 @@
             <td class="desc-cell" title="In tower N ° 6 of the old 50 KV LT (disabled and de-energized and 90% disassembled) located in the city of Pasco, the cutting of the last profiles of the base of the tower previously disassembled was carried out, using oxyfuel equipment, at 11:45 a.m., the safety supervisor of Proingcom and the foreman, who were in the external part of the fenced area supervising the activity, indicate the paralysis of activities and evacuation to the refuge due to the orange alert indicated on the detector of storms. During the evacuation of the last 02 employees who were inside the fenced area, a loud sound was heard, provoking a scare, which caused the staff to throw themselves to the floor within the area, then proceeded to leave the work area by their own means through the staircase. Apparently the loud sound would correspond to an electrical discharge in the cable guard that passes over the old towers.">In tower N ° 6 of the old 50 KV LT (disabled and de-energized and 90% disassembled) located in the c...</td>
             <td><span class="badge badge-risk">Electrical Shock</span></td>
             <td><span class="badge badge-team">workplace_safety</span></td>
-            <td><span class="badge badge-success">✓</span> workplace_safety <span class="dim">(308ms)</span></td>
-            <td><span class="badge badge-success">✓</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(336ms)</span></td>
+            <td><span class="badge badge-success">✓</span> workplace_safety <span class="dim">(310ms)</span></td>
+            <td><span class="badge badge-success">✓</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(2ms)</span></td>
         </tr>
         
         <tr>
@@ -790,7 +790,7 @@
             <td><span class="badge badge-risk">Others</span></td>
             <td><span class="badge badge-team">general_operations</span></td>
             <td><span class="badge badge-success">✓</span> general_operations <span class="dim">(307ms)</span></td>
-            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(103ms)</span></td>
+            <td><span class="badge badge-danger">✗</span> equipment_machinery <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(2ms)</span></td>
         </tr>
         
         <tr>
@@ -798,8 +798,8 @@
             <td class="desc-cell" title="Employee performed withdrawal of electrical failure in the engine control drawer of the TQ 14 A, after the check and exchange of fuses, it closed the door of the drawer and energized the drawer, at this moment an arc was opened, reaching the face and part of the employee's forearm, causing minor burns.">Employee performed withdrawal of electrical failure in the engine control drawer of the TQ 14 A, aft...</td>
             <td><span class="badge badge-risk">Projection/Burning</span></td>
             <td><span class="badge badge-team">equipment_machinery</span></td>
-            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="dim">(308ms)</span></td>
-            <td><span class="badge badge-danger">✗</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(97ms)</span></td>
+            <td><span class="badge badge-success">✓</span> equipment_machinery <span class="dim">(309ms)</span></td>
+            <td><span class="badge badge-danger">✗</span> workplace_safety <span class="tag tag-jev">⚡ Jev</span> <span class="dim">(2ms)</span></td>
         </tr>
         
                     </tbody>

@@ -18,14 +18,14 @@
       "general_operations": "General operational incidents, traffic, administrative issues, and any incidents that don't fit the other specialized categories."
     }
   },
-  "timestamp": "2026-10-14T03:11:51.239219+00:00",
+  "timestamp": "2026-10-14T03:28:50.989909+00:00",
   "summary": {
-    "llm_calls_avoided": 38,
-    "llm_calls_avoided_percent": 76.0,
-    "cost_saved_usd": 0.004601,
-    "cost_saved_percent": 61.3,
-    "avg_latency_reduction_ms": 795.8,
-    "avg_latency_reduction_percent": 80.8,
+    "llm_calls_avoided": 37,
+    "llm_calls_avoided_percent": 74.0,
+    "cost_saved_usd": 0.004451,
+    "cost_saved_percent": 59.3,
+    "avg_latency_reduction_ms": 900.4,
+    "avg_latency_reduction_percent": 91.7,
     "baseline_accuracy": 0.98,
     "jev_first_accuracy": 0.58,
     "accuracy_delta_pp": -40.0
@@ -35,39 +35,39 @@
     "total_incidents": 50,
     "accuracy": 0.98,
     "llm_calls": 50,
-    "avg_latency_ms": 985.3,
-    "total_latency_ms": 49265.8,
+    "avg_latency_ms": 982.0,
+    "total_latency_ms": 49097.8,
     "estimated_cost_usd": 0.0075
   },
   "jev_first": {
     "router": "langgraph-jev-router (Jev-First, Gemini Fallback)",
     "total_incidents": 50,
     "accuracy": 0.58,
-    "jev_decisions": 38,
-    "jev_decision_rate_percent": 76.0,
-    "llm_fallback_calls": 12,
-    "llm_fallback_rate_percent": 24.0,
-    "avg_latency_ms": 189.5,
-    "total_latency_ms": 9473.6,
+    "jev_decisions": 37,
+    "jev_decision_rate_percent": 74.0,
+    "llm_fallback_calls": 13,
+    "llm_fallback_rate_percent": 26.0,
+    "avg_latency_ms": 81.5,
+    "total_latency_ms": 4075.5,
     "estimated_jev_cost_usd": 0.001099,
-    "estimated_llm_cost_usd": 0.0018,
-    "estimated_total_cost_usd": 0.002899
+    "estimated_llm_cost_usd": 0.00195,
+    "estimated_total_cost_usd": 0.003049
   },
   "jev_internal_report": {
     "routers": [
       {
         "router": "run_jev_first.<locals>.route_incident",
-        "live_total": 50,
-        "jev_decided": 38,
+        "live_total": 100,
+        "jev_decided": 76,
         "fallback_reasons": {
-          "low_confidence": 12
+          "low_confidence": 24
         },
-        "jev_median_ms": 102.26,
-        "router_median_ms": 305.075,
+        "jev_median_ms": 107.54,
+        "router_median_ms": 305.09,
         "jev_input_tokens": 26164,
         "jev_cost_usd": 0.0010988880000000001,
-        "time_saved_s": 7.799879999999999,
-        "llm_cost_saved_usd": 0.005699999999999999,
+        "time_saved_s": 19.69882,
+        "llm_cost_saved_usd": 0.011399999999999999,
         "shadow_total": 0,
         "shadow_skipped": {},
         "shadow_errors": 0,
@@ -136,11 +136,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 34210.7,
+      "baseline_latency_ms": 33997.7,
       "jev_routed": "equipment_machinery",
       "jev_correct": false,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 208.7
+      "jev_latency_ms": 1.1
     },
     {
       "id": 12,
@@ -149,11 +149,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 310.6,
+      "baseline_latency_ms": 310.0,
       "jev_routed": "general_operations",
       "jev_correct": true,
       "jev_decided_by": "llm",
-      "jev_latency_ms": 408.7
+      "jev_latency_ms": 306.2
     },
     {
       "id": 144,
@@ -162,11 +162,11 @@
       "expected_team": "workplace_safety",
       "baseline_routed": "general_operations",
       "baseline_correct": false,
-      "baseline_latency_ms": 305.2,
+      "baseline_latency_ms": 308.4,
       "jev_routed": "workplace_safety",
       "jev_correct": true,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 125.7
+      "jev_latency_ms": 0.9
     },
     {
       "id": 252,
@@ -175,11 +175,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 310.5,
+      "baseline_latency_ms": 309.6,
       "jev_routed": "general_operations",
       "jev_correct": true,
       "jev_decided_by": "llm",
-      "jev_latency_ms": 411.4
+      "jev_latency_ms": 306.9
     },
     {
       "id": 249,
@@ -188,11 +188,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 304.3,
+      "baseline_latency_ms": 309.4,
       "jev_routed": "equipment_machinery",
       "jev_correct": false,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 138.5
+      "jev_latency_ms": 1.5
     },
     {
       "id": 334,
@@ -201,11 +201,11 @@
       "expected_team": "equipment_machinery",
       "baseline_routed": "equipment_machinery",
       "baseline_correct": true,
-      "baseline_latency_ms": 304.6,
+      "baseline_latency_ms": 308.6,
       "jev_routed": "equipment_machinery",
       "jev_correct": true,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 102.1
+      "jev_latency_ms": 1.7
     },
     {
       "id": 44,
@@ -214,11 +214,11 @@
       "expected_team": "equipment_machinery",
       "baseline_routed": "equipment_machinery",
       "baseline_correct": true,
-      "baseline_latency_ms": 305.0,
+      "baseline_latency_ms": 307.4,
       "jev_routed": "equipment_machinery",
       "jev_correct": true,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 111.6
+      "jev_latency_ms": 1.1
     },
     {
       "id": 3,
@@ -231,7 +231,7 @@
       "jev_routed": "equipment_machinery",
       "jev_correct": true,
       "jev_decided_by": "llm",
-      "jev_latency_ms": 411.5
+      "jev_latency_ms": 310.4
     },
     {
       "id": 281,
@@ -240,11 +240,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 306.9,
+      "baseline_latency_ms": 307.3,
       "jev_routed": "equipment_machinery",
       "jev_correct": false,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 109.6
+      "jev_latency_ms": 2.2
     },
     {
       "id": 89,
@@ -253,11 +253,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 307.4,
+      "baseline_latency_ms": 307.3,
       "jev_routed": "workplace_safety",
       "jev_correct": false,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 96.1
+      "jev_latency_ms": 1.5
     },
     {
       "id": 406,
@@ -266,11 +266,11 @@
       "expected_team": "equipment_machinery",
       "baseline_routed": "equipment_machinery",
       "baseline_correct": true,
-      "baseline_latency_ms": 301.9,
+      "baseline_latency_ms": 308.5,
       "jev_routed": "equipment_machinery",
       "jev_correct": true,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 97.3
+      "jev_latency_ms": 1.9
     },
     {
       "id": 325,
@@ -279,11 +279,11 @@
       "expected_team": "equipment_machinery",
       "baseline_routed": "equipment_machinery",
       "baseline_correct": true,
-      "baseline_latency_ms": 306.8,
+      "baseline_latency_ms": 307.7,
       "jev_routed": "equipment_machinery",
       "jev_correct": true,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 101.5
+      "jev_latency_ms": 1.5
     },
     {
       "id": 97,
@@ -292,11 +292,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 307.1,
+      "baseline_latency_ms": 306.7,
       "jev_routed": "general_operations",
       "jev_correct": true,
       "jev_decided_by": "llm",
-      "jev_latency_ms": 466.0
+      "jev_latency_ms": 311.4
     },
     {
       "id": 245,
@@ -305,11 +305,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 306.8,
+      "baseline_latency_ms": 311.5,
       "jev_routed": "equipment_machinery",
       "jev_correct": false,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 152.7
+      "jev_latency_ms": 2.4
     },
     {
       "id": 170,
@@ -318,11 +318,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 304.1,
+      "baseline_latency_ms": 309.2,
       "jev_routed": "equipment_machinery",
       "jev_correct": false,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 99.9
+      "jev_latency_ms": 1.6
     },
     {
       "id": 289,
@@ -331,11 +331,11 @@
       "expected_team": "equipment_machinery",
       "baseline_routed": "equipment_machinery",
       "baseline_correct": true,
-      "baseline_latency_ms": 302.8,
+      "baseline_latency_ms": 308.0,
       "jev_routed": "equipment_machinery",
       "jev_correct": true,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 114.6
+      "jev_latency_ms": 1.3
     },
     {
       "id": 107,
@@ -344,11 +344,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 306.6,
+      "baseline_latency_ms": 307.0,
       "jev_routed": "equipment_machinery",
       "jev_correct": false,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 104.5
+      "jev_latency_ms": 1.3
     },
     {
       "id": 46,
@@ -357,11 +357,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 309.0,
+      "baseline_latency_ms": 308.2,
       "jev_routed": "general_operations",
       "jev_correct": true,
       "jev_decided_by": "llm",
-      "jev_latency_ms": 457.2
+      "jev_latency_ms": 310.2
     },
     {
       "id": 131,
@@ -370,11 +370,11 @@
       "expected_team": "workplace_safety",
       "baseline_routed": "workplace_safety",
       "baseline_correct": true,
-      "baseline_latency_ms": 308.8,
+      "baseline_latency_ms": 306.5,
       "jev_routed": "workplace_safety",
       "jev_correct": true,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 118.5
+      "jev_latency_ms": 2.3
     },
     {
       "id": 145,
@@ -383,11 +383,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 305.1,
+      "baseline_latency_ms": 309.6,
       "jev_routed": "workplace_safety",
       "jev_correct": false,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 2.5
+      "jev_latency_ms": 1.4
     },
     {
       "id": 379,
@@ -396,11 +396,11 @@
       "expected_team": "workplace_safety",
       "baseline_routed": "workplace_safety",
       "baseline_correct": true,
-      "baseline_latency_ms": 306.7,
+      "baseline_latency_ms": 308.5,
       "jev_routed": "workplace_safety",
       "jev_correct": true,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 131.2
+      "jev_latency_ms": 1.3
     },
     {
       "id": 242,
@@ -409,11 +409,11 @@
       "expected_team": "chemical_process",
       "baseline_routed": "chemical_process",
       "baseline_correct": true,
-      "baseline_latency_ms": 306.5,
+      "baseline_latency_ms": 307.3,
       "jev_routed": "equipment_machinery",
       "jev_correct": false,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 110.6
+      "jev_latency_ms": 1.3
     },
     {
       "id": 355,
@@ -422,11 +422,11 @@
       "expected_team": "workplace_safety",
       "baseline_routed": "workplace_safety",
       "baseline_correct": true,
-      "baseline_latency_ms": 308.5,
+      "baseline_latency_ms": 307.3,
       "jev_routed": "workplace_safety",
       "jev_correct": true,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 110.3
+      "jev_latency_ms": 1.2
     },
     {
       "id": 56,
@@ -435,11 +435,11 @@
       "expected_team": "chemical_process",
       "baseline_routed": "chemical_process",
       "baseline_correct": true,
-      "baseline_latency_ms": 306.8,
+      "baseline_latency_ms": 308.5,
       "jev_routed": "chemical_process",
       "jev_correct": true,
-      "jev_decided_by": "jev",
-      "jev_latency_ms": 203.9
+      "jev_decided_by": "llm",
+      "jev_latency_ms": 309.4
     },
     {
       "id": 258,
@@ -448,11 +448,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 309.1,
+      "baseline_latency_ms": 310.4,
       "jev_routed": "general_operations",
       "jev_correct": true,
       "jev_decided_by": "llm",
-      "jev_latency_ms": 413.8
+      "jev_latency_ms": 311.4
     },
     {
       "id": 343,
@@ -461,11 +461,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 309.4,
+      "baseline_latency_ms": 307.4,
       "jev_routed": "workplace_safety",
       "jev_correct": false,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 95.7
+      "jev_latency_ms": 2.6
     },
     {
       "id": 152,
@@ -474,11 +474,11 @@
       "expected_team": "workplace_safety",
       "baseline_routed": "workplace_safety",
       "baseline_correct": true,
-      "baseline_latency_ms": 307.9,
+      "baseline_latency_ms": 308.2,
       "jev_routed": "workplace_safety",
       "jev_correct": true,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 101.1
+      "jev_latency_ms": 2.1
     },
     {
       "id": 263,
@@ -487,11 +487,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 308.8,
+      "baseline_latency_ms": 306.9,
       "jev_routed": "general_operations",
       "jev_correct": true,
       "jev_decided_by": "llm",
-      "jev_latency_ms": 418.4
+      "jev_latency_ms": 310.0
     },
     {
       "id": 412,
@@ -500,11 +500,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 303.4,
+      "baseline_latency_ms": 308.6,
       "jev_routed": "equipment_machinery",
       "jev_correct": false,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 98.9
+      "jev_latency_ms": 3.0
     },
     {
       "id": 202,
@@ -513,11 +513,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 307.1,
+      "baseline_latency_ms": 307.7,
       "jev_routed": "general_operations",
       "jev_correct": true,
       "jev_decided_by": "llm",
-      "jev_latency_ms": 407.0
+      "jev_latency_ms": 308.0
     },
     {
       "id": 42,
@@ -526,11 +526,11 @@
       "expected_team": "chemical_process",
       "baseline_routed": "chemical_process",
       "baseline_correct": true,
-      "baseline_latency_ms": 309.4,
+      "baseline_latency_ms": 306.4,
       "jev_routed": "chemical_process",
       "jev_correct": true,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 100.9
+      "jev_latency_ms": 2.1
     },
     {
       "id": 226,
@@ -539,11 +539,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 307.4,
+      "baseline_latency_ms": 309.7,
       "jev_routed": "equipment_machinery",
       "jev_correct": false,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 95.2
+      "jev_latency_ms": 1.6
     },
     {
       "id": 158,
@@ -552,11 +552,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 309.1,
+      "baseline_latency_ms": 309.0,
       "jev_routed": "equipment_machinery",
       "jev_correct": false,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 96.2
+      "jev_latency_ms": 1.3
     },
     {
       "id": 285,
@@ -565,11 +565,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 309.2,
+      "baseline_latency_ms": 309.3,
       "jev_routed": "equipment_machinery",
       "jev_correct": false,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 98.0
+      "jev_latency_ms": 1.7
     },
     {
       "id": 176,
@@ -578,11 +578,11 @@
       "expected_team": "workplace_safety",
       "baseline_routed": "workplace_safety",
       "baseline_correct": true,
-      "baseline_latency_ms": 304.6,
+      "baseline_latency_ms": 306.5,
       "jev_routed": "workplace_safety",
       "jev_correct": true,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 98.1
+      "jev_latency_ms": 1.6
     },
     {
       "id": 199,
@@ -591,11 +591,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 308.6,
+      "baseline_latency_ms": 309.5,
       "jev_routed": "workplace_safety",
       "jev_correct": false,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 106.7
+      "jev_latency_ms": 1.4
     },
     {
       "id": 154,
@@ -604,11 +604,11 @@
       "expected_team": "workplace_safety",
       "baseline_routed": "workplace_safety",
       "baseline_correct": true,
-      "baseline_latency_ms": 304.4,
+      "baseline_latency_ms": 308.5,
       "jev_routed": "workplace_safety",
       "jev_correct": true,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 142.3
+      "jev_latency_ms": 1.1
     },
     {
       "id": 397,
@@ -617,11 +617,11 @@
       "expected_team": "equipment_machinery",
       "baseline_routed": "equipment_machinery",
       "baseline_correct": true,
-      "baseline_latency_ms": 309.0,
+      "baseline_latency_ms": 306.2,
       "jev_routed": "equipment_machinery",
       "jev_correct": true,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 104.2
+      "jev_latency_ms": 1.1
     },
     {
       "id": 69,
@@ -630,11 +630,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 306.5,
+      "baseline_latency_ms": 307.8,
       "jev_routed": "equipment_machinery",
       "jev_correct": false,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 103.6
+      "jev_latency_ms": 1.0
     },
     {
       "id": 180,
@@ -643,11 +643,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 306.7,
+      "baseline_latency_ms": 304.2,
       "jev_routed": "general_operations",
       "jev_correct": true,
       "jev_decided_by": "llm",
-      "jev_latency_ms": 412.5
+      "jev_latency_ms": 309.6
     },
     {
       "id": 414,
@@ -656,11 +656,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 309.0,
+      "baseline_latency_ms": 306.3,
       "jev_routed": "general_operations",
       "jev_correct": true,
       "jev_decided_by": "llm",
-      "jev_latency_ms": 408.5
+      "jev_latency_ms": 307.7
     },
     {
       "id": 338,
@@ -669,11 +669,11 @@
       "expected_team": "equipment_machinery",
       "baseline_routed": "equipment_machinery",
       "baseline_correct": true,
-      "baseline_latency_ms": 309.2,
+      "baseline_latency_ms": 309.1,
       "jev_routed": "equipment_machinery",
       "jev_correct": true,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 114.7
+      "jev_latency_ms": 1.2
     },
     {
       "id": 404,
@@ -682,11 +682,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 309.6,
+      "baseline_latency_ms": 307.8,
       "jev_routed": "general_operations",
       "jev_correct": true,
       "jev_decided_by": "llm",
-      "jev_latency_ms": 407.2
+      "jev_latency_ms": 306.9
     },
     {
       "id": 189,
@@ -695,11 +695,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 307.9,
+      "baseline_latency_ms": 308.7,
       "jev_routed": "workplace_safety",
       "jev_correct": false,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 102.6
+      "jev_latency_ms": 1.4
     },
     {
       "id": 93,
@@ -708,11 +708,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 309.3,
+      "baseline_latency_ms": 305.8,
       "jev_routed": "equipment_machinery",
       "jev_correct": false,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 93.8
+      "jev_latency_ms": 1.1
     },
     {
       "id": 86,
@@ -721,11 +721,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 307.0,
+      "baseline_latency_ms": 311.2,
       "jev_routed": "workplace_safety",
       "jev_correct": false,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 113.2
+      "jev_latency_ms": 1.0
     },
     {
       "id": 78,
@@ -734,11 +734,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 309.0,
+      "baseline_latency_ms": 309.1,
       "jev_routed": "general_operations",
       "jev_correct": true,
       "jev_decided_by": "llm",
-      "jev_latency_ms": 410.3
+      "jev_latency_ms": 309.0
     },
     {
       "id": 372,
@@ -747,11 +747,11 @@
       "expected_team": "workplace_safety",
       "baseline_routed": "workplace_safety",
       "baseline_correct": true,
-      "baseline_latency_ms": 308.1,
+      "baseline_latency_ms": 310.1,
       "jev_routed": "workplace_safety",
       "jev_correct": true,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 336.0
+      "jev_latency_ms": 2.3
     },
     {
       "id": 121,
@@ -760,11 +760,11 @@
       "expected_team": "general_operations",
       "baseline_routed": "general_operations",
       "baseline_correct": true,
-      "baseline_latency_ms": 307.3,
+      "baseline_latency_ms": 307.0,
       "jev_routed": "equipment_machinery",
       "jev_correct": false,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 103.3
+      "jev_latency_ms": 1.5
     },
     {
       "id": 292,
@@ -773,11 +773,11 @@
       "expected_team": "equipment_machinery",
       "baseline_routed": "equipment_machinery",
       "baseline_correct": true,
-      "baseline_latency_ms": 308.4,
+      "baseline_latency_ms": 309.0,
       "jev_routed": "workplace_safety",
       "jev_correct": false,
       "jev_decided_by": "jev",
-      "jev_latency_ms": 96.8
+      "jev_latency_ms": 2.1
     }
   ]
 }

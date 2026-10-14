@@ -1,15 +1,15 @@
 # Manufacturing Industry Benchmark Report
 ## `langgraph-jev-router` vs Standard Agentic LLM Routing
 
-**Generated:** 2026-10-14 03:11 UTC
+**Generated:** 2026-10-14 03:28 UTC
 
 ---
 
 ## Executive Summary
 
-- **LLM Calls Avoided:** **38** out of 50 (**76.0% reduction**)
-- **Speed Improvement:** **796ms** faster per decision (**80.8% latency cut**)
-- **Cost Savings:** **61.3%** lower total routing cost
+- **LLM Calls Avoided:** **37** out of 50 (**74.0% reduction**)
+- **Speed Improvement:** **900ms** faster per decision (**91.7% latency cut**)
+- **Cost Savings:** **59.3%** lower total routing cost
 - **Routing Accuracy:** Baseline **98.0%** vs Jev-First **58.0%** (Δ -40.0%)
 
 ---
@@ -40,11 +40,11 @@
 | Metric | Baseline (Gemini 3.8 Flash) | Jev-First (`langgraph-jev-router`) | Delta / Improvement |
 |---|---|---|---|
 | **Routing Accuracy** | 98.0% | 58.0% | **-40.0 pp** |
-| **LLM Calls Required** | 50 | 12 | **-38 calls (76.0% cut)** |
-| **Jev Autonomous Decisions** | 0 (0%) | 38 (76.0%) | **+38 direct routes** |
-| **Average Latency** | 985 ms | 189 ms | **796 ms faster (80.8%)** |
-| **Total Pipeline Time** | 49.3 s | 9.5 s | **-39.8 s** |
-| **Estimated Cost** | $0.00750 | $0.00290 | **-$0.00460 (61.3% saved)** |
+| **LLM Calls Required** | 50 | 13 | **-37 calls (74.0% cut)** |
+| **Jev Autonomous Decisions** | 0 (0%) | 37 (74.0%) | **+37 direct routes** |
+| **Average Latency** | 982 ms | 82 ms | **900 ms faster (91.7%)** |
+| **Total Pipeline Time** | 49.1 s | 4.1 s | **-45.0 s** |
+| **Estimated Cost** | $0.00750 | $0.00305 | **-$0.00445 (59.3% saved)** |
 
 ---
 
@@ -53,13 +53,13 @@
 ```
 Jev router report: run_jev_first.<locals>.route_incident
 --------------------------------------------------------
-LIVE   50 routing decisions
-  Decided by Jev ........    38 (76%)   <- LLM routing calls avoided
-  Sent to your router ...    12 (24%)
-      low confidence: 12
-  Median latency: Jev 102 ms  vs  your router 305 ms
-  Estimated routing time saved: 7.8 s
-  Jev cost (est.): $0.001099   LLM routing cost avoided (est.): $0.0057
+LIVE   100 routing decisions
+  Decided by Jev ........    76 (76%)   <- LLM routing calls avoided
+  Sent to your router ...    24 (24%)
+      low confidence: 24
+  Median latency: Jev 108 ms  vs  your router 305 ms
+  Estimated routing time saved: 19.7 s
+  Jev cost (est.): $0.001099   LLM routing cost avoided (est.): $0.0114
 ```
 
 ---

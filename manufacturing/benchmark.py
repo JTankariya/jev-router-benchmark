@@ -1090,7 +1090,9 @@ def main():
     parser.add_argument("--sample", type=str, default="50", help="Number of incidents to evaluate (e.g. 50, 100, or 'all')")
     parser.add_argument("--llm", choices=["auto", "gemini", "simulated"], default="auto", help="LLM router mode (default: auto)")
     parser.add_argument("--threshold", type=float, default=0.7, help="Jev confidence threshold (default: 0.7)")
+    parser.add_argument("--sweep", action="store_true", help="Run multi-threshold calibration sweep (0.60 to 0.95)")
     parser.add_argument("--seed", type=int, default=42, help="Random seed for balanced sampling (default: 42)")
+
     args = parser.parse_args()
 
     sample_size: Optional[int]
@@ -1127,9 +1129,57 @@ def main():
     # Phase 1: Baseline LLM Routing
     baseline_metrics = run_baseline(incidents, llm_mode=args.llm)
 
-    # Phase 2: Jev-First Routing
-    jev_metrics, jev_report = run_jev_first(incidents, threshold=args.threshold, llm_mode=args.llm)
+    if args.sweep:
+        thresholds = [0.60, 0.70, 0.75, 0.80, 0.85, 0.90, 0.95]
+        sweep_results = []
+        print("\n" + "=" * 90)
+        print("RUNNING MULTI-THRESHOLD CALIBRATION SWEEP")
+        print("=" * 90)
 
+        best_m = None
+        best_rep = None
+        for t in thresholds:
+            print(f"\n--> Evaluating threshold = {t:.2f}...")
+            m, rep = run_jev_first(incidents, threshold=t, llm_mode=args.llm)
+            avoided = baseline_metrics.llm_calls - m.llm_calls
+            avoided_pct = (avoided / baseline_metrics.llm_calls * 100) if baseline_metrics.llm_calls else 0
+            sweep_results.append({
+                "threshold": t,
+                "llm_avoided_pct": round(avoided_pct, 1),
+                "jev_decisions": m.jev_decisions,
+                "total_incidents": m.total_incidents,
+                "jev_rate_pct": round(m.jev_decisions / m.total_incidents * 100, 1),
+                "llm_fallback": m.llm_calls,
+                "accuracy_pct": round(m.accuracy * 100, 1),
+                "avg_latency_ms": round(m.avg_latency_ms, 1),
+                "est_cost_usd": round(m.estimated_llm_cost_usd + m.estimated_jev_cost_usd, 5),
+            })
+            if t == args.threshold or best_m is None:
+                best_m = m
+                best_rep = rep
+
+        # Print Executive Trade-off Table
+        print("\n" + "╔" + "═" * 88 + "╗")
+        print("║" + "           EXECUTIVE THRESHOLD CALIBRATION & TRADEOFF TABLE            ".center(88) + "║")
+        print("╠═══════════╦══════════════╦════════════════╦══════════════╦════════════════╦══════════════════╣")
+        print("║ Threshold ║ LLM Avoided  ║ Autonomous Jev ║ LLM Fallback ║ Route Accuracy ║ Average Latency  ║")
+        print("╠═══════════╬══════════════╬════════════════╬══════════════╬════════════════╬══════════════════╣")
+        for r in sweep_results:
+            print(f"║   {r['threshold']:.2f}    ║   {r['llm_avoided_pct']:5.1f}%     ║   {r['jev_decisions']:2d}/{r['total_incidents']:2d} ({r['jev_rate_pct']:4.1f}%) ║   {r['llm_fallback']:2d}/{r['total_incidents']:2d}    ║    {r['accuracy_pct']:5.1f}%    ║    {r['avg_latency_ms']:5.0f} ms     ║")
+        print("╚═══════════╩══════════════╩════════════════╩══════════════╩════════════════╩══════════════════╝")
+
+        reports_dir = Path(__file__).parent / "reports"
+        reports_dir.mkdir(exist_ok=True)
+        sweep_path = reports_dir / "threshold_sweep.json"
+        with open(sweep_path, "w", encoding="utf-8") as f:
+            json.dump(sweep_results, f, indent=2)
+        print(f"\nSaved calibration sweep table to: {sweep_path}")
+
+        jev_metrics = best_m
+        jev_report = best_rep
+    else:
+        # Phase 2: Single Jev-First Routing
+        jev_metrics, jev_report = run_jev_first(incidents, threshold=args.threshold, llm_mode=args.llm)
 
     overall_elapsed = time.perf_counter() - overall_start
 
@@ -1155,6 +1205,7 @@ def main():
     print(f"  - JSON:     {json_path}")
     print(f"  - HTML:     {html_path}")
     print()
+
 
 
 if __name__ == "__main__":

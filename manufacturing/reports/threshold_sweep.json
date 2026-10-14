@@ -1,0 +1,79 @@
+[
+  {
+    "threshold": 0.6,
+    "llm_avoided_pct": 78.0,
+    "jev_decisions": 39,
+    "total_incidents": 50,
+    "jev_rate_pct": 78.0,
+    "llm_fallback": 11,
+    "accuracy_pct": 56.0,
+    "avg_latency_ms": 183.3,
+    "est_cost_usd": 0.00275
+  },
+  {
+    "threshold": 0.7,
+    "llm_avoided_pct": 74.0,
+    "jev_decisions": 37,
+    "total_incidents": 50,
+    "jev_rate_pct": 74.0,
+    "llm_fallback": 13,
+    "accuracy_pct": 58.0,
+    "avg_latency_ms": 81.5,
+    "est_cost_usd": 0.00305
+  },
+  {
+    "threshold": 0.75,
+    "llm_avoided_pct": 74.0,
+    "jev_decisions": 37,
+    "total_incidents": 50,
+    "jev_rate_pct": 74.0,
+    "llm_fallback": 13,
+    "accuracy_pct": 58.0,
+    "avg_latency_ms": 81.7,
+    "est_cost_usd": 0.00305
+  },
+  {
+    "threshold": 0.8,
+    "llm_avoided_pct": 72.0,
+    "jev_decisions": 36,
+    "total_incidents": 50,
+    "jev_rate_pct": 72.0,
+    "llm_fallback": 14,
+    "accuracy_pct": 60.0,
+    "avg_latency_ms": 87.8,
+    "est_cost_usd": 0.0032
+  },
+  {
+    "threshold": 0.85,
+    "llm_avoided_pct": 64.0,
+    "jev_decisions": 32,
+    "total_incidents": 50,
+    "jev_rate_pct": 64.0,
+    "llm_fallback": 18,
+    "accuracy_pct": 66.0,
+    "avg_latency_ms": 112.3,
+    "est_cost_usd": 0.0038
+  },
+  {
+    "threshold": 0.9,
+    "llm_avoided_pct": 60.0,
+    "jev_decisions": 30,
+    "total_incidents": 50,
+    "jev_rate_pct": 60.0,
+    "llm_fallback": 20,
+    "accuracy_pct": 70.0,
+    "avg_latency_ms": 124.8,
+    "est_cost_usd": 0.0041
+  },
+  {
+    "threshold": 0.95,
+    "llm_avoided_pct": 56.0,
+    "jev_decisions": 28,
+    "total_incidents": 50,
+    "jev_rate_pct": 56.0,
+    "llm_fallback": 22,
+    "accuracy_pct": 72.0,
+    "avg_latency_ms": 137.0,
+    "est_cost_usd": 0.0044
+  }
+]
