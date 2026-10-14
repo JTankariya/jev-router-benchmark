@@ -1,0 +1,30 @@
+# Environment variables & secrets (CRITICAL: Never commit keys)
+.env
+.env.*
+!.env.example
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# OS and Editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
