@@ -1,0 +1,56 @@
+[
+  {
+    "threshold": 0.6,
+    "calls_avoided_pct": 78.0,
+    "jev_decisions": 39,
+    "llm_fallbacks": 11,
+    "total_incidents": 50,
+    "accuracy": 62.0,
+    "avg_latency_ms": 181.7
+  },
+  {
+    "threshold": 0.7,
+    "calls_avoided_pct": 72.0,
+    "jev_decisions": 36,
+    "llm_fallbacks": 14,
+    "total_incidents": 50,
+    "accuracy": 60.0,
+    "avg_latency_ms": 88.3
+  },
+  {
+    "threshold": 0.8,
+    "calls_avoided_pct": 64.0,
+    "jev_decisions": 32,
+    "llm_fallbacks": 18,
+    "total_incidents": 50,
+    "accuracy": 76.0,
+    "avg_latency_ms": 112.5
+  },
+  {
+    "threshold": 0.85,
+    "calls_avoided_pct": 60.0,
+    "jev_decisions": 30,
+    "llm_fallbacks": 20,
+    "total_incidents": 50,
+    "accuracy": 76.0,
+    "avg_latency_ms": 124.6
+  },
+  {
+    "threshold": 0.9,
+    "calls_avoided_pct": 54.0,
+    "jev_decisions": 27,
+    "llm_fallbacks": 23,
+    "total_incidents": 50,
+    "accuracy": 78.0,
+    "avg_latency_ms": 143.7
+  },
+  {
+    "threshold": 0.95,
+    "calls_avoided_pct": 50.0,
+    "jev_decisions": 25,
+    "llm_fallbacks": 25,
+    "total_incidents": 50,
+    "accuracy": 84.0,
+    "avg_latency_ms": 156.4
+  }
+]

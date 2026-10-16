@@ -1,0 +1,51 @@
+incident_id,recall_number,product_preview,fda_classification,expected_route,routed_to,correct,decided_by,latency_ms
+118,F-1900-2017,"Good Plenty Brand Supreme Abalone Noodles, 21.2 oz. box.  Each box contains Reto",Class III,compliance_relabel,compliance_relabel,True,llm,566.6
+51,F-0276-2017,"CytoDetox, Hydrolyzed Clinoptilolite Fragments, 1 oz./30 mL, OTC Non-Sterile.  D",Class II,warehouse_hold,warehouse_hold,True,llm,495.5
+5,F-1415-2015,"TranSmart Raspberry Filled frozen unbaked cookie dough, 108/1.75 oz. units, CSM ",Class I,emergency_quarantine,emergency_quarantine,True,jev,116.6
+48,F-1554-2017,Cashew Clusters 32 oz,Class I,emergency_quarantine,emergency_quarantine,True,jev,111.0
+67,F-1804-2018,Homestyle Italian Seasoned Croutons:  1 lb. foil pouch  Item # 74384            ,Class II,warehouse_hold,emergency_quarantine,False,jev,102.4
+93,F-1352-2014,"Phenol Assist, Kirkman brand, Item # 0835-090",Class II,warehouse_hold,emergency_quarantine,False,jev,127.2
+32,F-0459-2023,"Bistro To Go, Gourmet Cheese & Fruit Plate, Net Wt. 6 Oz. Single Serving, Keep r",Class I,emergency_quarantine,emergency_quarantine,True,jev,108.7
+17,F-0163-2018,"Stir Fry Kit,  Alaska Carrot, 1 x 11 lb. per case, UPC 45009 85749 1    The ingr",Class I,emergency_quarantine,emergency_quarantine,True,jev,97.9
+107,F-1135-2018,"ITALIAN ROSE GARLIC SPREAD, Gluten Free, NET WT. 35 LB (16 kg), www.italian-rose",Class III,compliance_relabel,warehouse_hold,False,jev,105.8
+131,H-1305-2026,"Prince ITALIAN BREAD; Sesame; ITALIAN & FRENCH BREAD, LARGE; NET WEIGHT 12 OZ. (",Class III,compliance_relabel,compliance_relabel,True,llm,408.9
+60,F-1681-2015,EST -700 Calcium,Class II,warehouse_hold,warehouse_hold,True,llm,406.5
+52,F-0865-2017,Koi Palace Mini Moon Cake: Single Box - Mini Oolong Tea Paste  Unit Size 1/2 lb.,Class II,warehouse_hold,emergency_quarantine,False,jev,111.3
+127,F-1154-2016,"Iowa Select Herbs LLC, Burdock Root, www.iowaselectherbs.com, 4 fl. Oz.., Cedar ",Class III,compliance_relabel,warehouse_hold,False,llm,410.6
+66,F-1796-2013,"individual 2 oz chocolate macaroons packaged in plastic wrapper labeled as "" Jen",Class II,warehouse_hold,warehouse_hold,True,llm,437.9
+64,F-0913-2020,"Southern Sisters Gourmet Cheddar Garlic Biscuits, Net Wt 16 oz (453.6 g)",Class II,warehouse_hold,warehouse_hold,True,llm,414.2
+96,F-1050-2016,"Blue Ridge Farms Macaroni Salad; 05021  Net Weight: 1 X 10 LB., Keep Refrigerate",Class II,warehouse_hold,warehouse_hold,True,jev,106.2
+4,F-0757-2022,Marketside 12oz Classic Salad  UPC:6-81131-32894-4  SKU: 3107,Class I,emergency_quarantine,emergency_quarantine,True,jev,105.1
+46,F-0526-2018,"Dark Chocolate Pecans Net Wt. 7 oz, Farrell Farms, 200 Gin Road, Goldsboro, NC",Class I,emergency_quarantine,emergency_quarantine,True,jev,110.4
+10,F-2387-2014,"Tiny Isle Chocolate Truffles Macadamia Nut: Gluten Free, Raw, Vegan; individual ",Class I,emergency_quarantine,emergency_quarantine,True,jev,109.0
+120,F-1916-2013,"Dietary Supplements under the same formulation, Labeled and Packaged in the Foll",Class III,compliance_relabel,compliance_relabel,True,llm,419.3
+26,F-1333-2024,"Grindsted Sweetlife CINN. Roll BAS Stabilizer & Emulsifier System, 22.68 kg/ 50 ",Class I,emergency_quarantine,emergency_quarantine,True,jev,119.6
+79,F-0358-2022,Livia One Organic Daily Topical Spray Probiotics;   4 oz. (120 ml)  UPC: 0 30915,Class II,warehouse_hold,emergency_quarantine,False,jev,94.8
+70,F-3116-2017,"A96555, PREDUST X2, NET WT 50 LBS, Manufactured By: Newly Weds Foods, Inc., Chic",Class II,warehouse_hold,emergency_quarantine,False,jev,104.8
+24,F-1216-2014,"Tuna Salad, Formula PT.60 packaged under these labels:    -Essentail Everyday Tu",Class I,emergency_quarantine,emergency_quarantine,True,jev,107.3
+141,F-0624-2023,Haiyue Food Nutritional Preserved Vegetable,Class III,compliance_relabel,compliance_relabel,True,llm,415.4
+119,F-1492-2024,Sweet Preserved Dried Plums; Farmer's Grange; Series Food; 88g; Plastic syntheti,Class III,compliance_relabel,warehouse_hold,False,jev,110.5
+138,F-0709-2023,Perrona Hot Sauce  Original with Chiltepin Peppers 5 fl oz (148ml) UPC 75 03016 ,Class III,compliance_relabel,warehouse_hold,False,jev,118.5
+40,F-0243-2017,"OSSIE'S PICKLED LOX & CREAM, NET WT. 8 OZ., UPC 739885104113; -- Far Rockaway, N",Class I,emergency_quarantine,emergency_quarantine,True,jev,102.0
+20,F-1182-2015,"Pear Sorbet; Bulk product is labeled with flavor name and date code, which is af",Class I,emergency_quarantine,emergency_quarantine,True,jev,114.6
+123,H-1071-2026,UPC 29604300000 SALMON WASABI GRILLED FS COLD               This is Albertson's ,Class III,compliance_relabel,compliance_relabel,True,llm,407.0
+115,F-0823-2016,HEB Lemon Seasonal Fish Fry Mix NET WT. 16 OZ (1 LB) CONT. NET 454g and HEB Lemo,Class III,compliance_relabel,emergency_quarantine,False,jev,103.6
+133,F-0797-2015,"Baroody Pickled Labneh with Pepper, Net Wt. 20 oz., (1 lb. 4 oz.), 575-g, in sea",Class III,compliance_relabel,warehouse_hold,False,jev,125.5
+73,F-0456-2018,Dark Chocolate Almond Bark 5oz &1lb Clear plastic tubs,Class II,warehouse_hold,emergency_quarantine,False,jev,101.7
+92,F-0848-2024,GRANDE     1.5OZ FRESH BOCCONCINI MOZZ 1/3#         SUPC/ITEM # 19132P,Class II,warehouse_hold,warehouse_hold,True,jev,130.0
+22,F-0091-2013,"SYSCO Imperial	6520795	1/5# FRUIT MIX CHUNKS 3/4""	130249 & 130250	BEST BY 9/15/1",Class I,emergency_quarantine,emergency_quarantine,True,jev,107.4
+61,F-3091-2015,"Red Tart Pitted Cherries, Straight Packed (No Sugar),  5 lbs. bulk pails, 30 lbs",Class II,warehouse_hold,warehouse_hold,True,jev,105.8
+30,F-0597-2020,Rachael's brand and Big Y brand Protein Snack Packs; containing one hard boiled ,Class I,emergency_quarantine,emergency_quarantine,True,jev,101.8
+89,F-1994-2017,"French's Crispy Jalapenos Net Wt. 5 oz. (141.7g), UPC 0 41500 95309 0, French's ",Class II,warehouse_hold,emergency_quarantine,False,jev,113.9
+111,F-1730-2018,Ruffles Cheddar and Sour Cream flavored potato chips 8.5 oz bag,Class III,compliance_relabel,compliance_relabel,True,llm,411.1
+124,F-1360-2013,"Pina Colada Dessert Bar  , 4 oz. Undeclared FD&C Red # 40 in clear flexible plas",Class III,compliance_relabel,compliance_relabel,True,llm,411.9
+13,F-2543-2015,Blue Bell Ice Cream Blueberry Cheesecake Still a 1/2 Gal (2 QTS),Class I,emergency_quarantine,emergency_quarantine,True,jev,131.0
+39,F-0377-2021,Kareem Chef Halva 1lb and 2lb sizes in plastic tub,Class I,emergency_quarantine,emergency_quarantine,True,jev,128.1
+140,F-1199-2013,"Tausi Brand Salted Black Beans, 180g (6.34oz), 100 cans/carton This product is i",Class III,compliance_relabel,emergency_quarantine,False,jev,117.3
+80,F-0465-2015,Mama Tere Arepa de Blanca de Maiz White Corn Patty 14.1 oz/400g   5 units Produc,Class II,warehouse_hold,compliance_relabel,False,jev,142.3
+54,F-1328-2018,Market Pantry Vanilla Ice Cream 128oz    UPC: 85239014943    Target item number:,Class II,warehouse_hold,warehouse_hold,True,jev,115.3
+12,F-2085-2015,"Sabra Classic Hummus, 17oz Six Pack UPC 040822017497 / 301290  Sabra Dipping Co.",Class I,emergency_quarantine,emergency_quarantine,True,jev,114.3
+27,F-1159-2022,POTATO RUSSET QUARTERED 2/10# (01)10886810715115(10)0016086772 71511 Best if use,Class I,emergency_quarantine,warehouse_hold,False,jev,120.8
+128,F-0119-2025,Oregon Orchards Banana Smoothie Mix. Product is packaged in the same square 0.5g,Class III,compliance_relabel,compliance_relabel,True,llm,405.6
+101,F-0904-2020,Pure Planet Organic Parasite Cleanse;  Net Wt. 174g Glass Jar;  Finished Product,Class III,compliance_relabel,compliance_relabel,True,llm,407.9
+122,F-0606-2017,Safecor Vitamin B-1 (THIAMINE) 100 mg tablets  NDC: 48433-0108-01  Distributed b,Class III,compliance_relabel,compliance_relabel,True,jev,111.3

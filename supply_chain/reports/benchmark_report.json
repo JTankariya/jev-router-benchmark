@@ -1,0 +1,20 @@
+{
+  "benchmark_timestamp": "2026-10-14T04:08:45.133358+00:00",
+  "dataset": "openFDA Food Enforcement Recall Dataset",
+  "total_incidents": 50,
+  "configured_threshold": 0.7,
+  "baseline_llm": {
+    "llm_calls": 50,
+    "accuracy": 0.88,
+    "avg_latency_ms": 309.1834891203325,
+    "cost_usd": 0.0075
+  },
+  "jev_first": {
+    "llm_calls": 14,
+    "jev_decisions": 36,
+    "calls_avoided_pct": 72.0,
+    "accuracy": 0.68,
+    "avg_latency_ms": 201.4449441389297,
+    "cost_usd": 0.002352
+  }
+}

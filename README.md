@@ -21,11 +21,11 @@ This repository benchmarks the performance, cost, and latency advantages of `lan
 
 | Domain | Status | Dataset | Key Result | Directory |
 |---|---|---|---|---|
-| **Manufacturing & Heavy Industry** | ✅ **Active** | [IHM Stefanini Industrial Safety Database](https://www.kaggle.com/datasets/ihmstefanini/industrial-safety-and-health-analytics-database) (CC0) | **-76% LLM calls**, **116ms median latency** | [`manufacturing/`](./manufacturing/) |
+| **Manufacturing & Heavy Industry** | ✅ **Active** | [IHM Stefanini Industrial Safety Database](https://www.kaggle.com/datasets/ihmstefanini/industrial-safety-and-health-analytics-database) (CC0) | **-76% LLM calls**, **116ms latency** | [`manufacturing/`](./manufacturing/) |
+| **Supply Chain & Logistics** | ✅ **Active** | [openFDA Food Enforcement Recall Database](https://api.fda.gov/food/enforcement.json) (Public Domain / 17 U.S.C. § 105) | **-72% LLM calls**, **88ms latency** | [`supply_chain/`](./supply_chain/) |
 | **Healthcare & Clinical Triage** | 🔜 *Roadmap* | Clinical emergency / patient triage records | *Coming soon* | `healthcare/` |
 | **Financial Services & Banking** | 🔜 *Roadmap* | Transaction fraud & dispute classification | *Coming soon* | `finance/` |
 | **IT Service Desk & Customer Ops** | 🔜 *Roadmap* | Enterprise support ticket routing | *Coming soon* | `support/` |
-| **Supply Chain & Logistics** | 🔜 *Roadmap* | Shipment delay & carrier exception routing | *Coming soon* | `logistics/` |
 
 ---
 
@@ -56,18 +56,16 @@ GOOGLE_API_KEY="your_google_api_key"    # Optional: for live Gemini LLM baseline
 
 ### 3. Run a Benchmark
 
-Run the manufacturing domain benchmark:
+Run either industry benchmark:
 
 ```bash
-# Run default 50-incident balanced sample
+# Manufacturing Domain Benchmark
 python manufacturing/benchmark.py --sample 50
+python manufacturing/benchmark.py --sweep
 
-# Run on 100 incidents or all 425 incidents
-python manufacturing/benchmark.py --sample 100
-python manufacturing/benchmark.py --sample all
-
-# Open the interactive HTML dashboard
-open manufacturing/reports/benchmark_report.html
+# Supply Chain & Logistics Domain Benchmark
+python supply_chain/benchmark.py --sample 50
+python supply_chain/benchmark.py --sweep
 ```
 
 ---
