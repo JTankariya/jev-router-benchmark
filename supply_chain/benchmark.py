@@ -150,6 +150,23 @@ def load_incidents(sample: Optional[int] = 50, seed: int = 42) -> List[SupplyCha
 
 # ── Baseline LLM Router (Google Gemini or Fallback) ─────────────────────────────
 
+def _extract_text_content(content: Any) -> str:
+    """Extract clean string text from LangChain message content (supports string or part lists)."""
+    if isinstance(content, str):
+        return content
+    if isinstance(content, list):
+        parts = []
+        for p in content:
+            if isinstance(p, dict) and "text" in p:
+                parts.append(p["text"])
+            elif isinstance(p, str):
+                parts.append(p)
+            elif hasattr(p, "text"):
+                parts.append(p.text)
+        return " ".join(parts)
+    return str(content)
+
+
 _GLOBAL_QUOTA_EXCEEDED = False
 
 
@@ -189,7 +206,7 @@ Respond with ONLY the exact route name, nothing else. No explanation, no punctua
                     SystemMessage(content=SYSTEM_PROMPT),
                     HumanMessage(content=description),
                 ])
-                raw_text = response.content.strip().lower()
+                raw_text = _extract_text_content(response.content).strip().lower()
                 for label in ROUTE_LABELS:
                     if label in raw_text:
                         return label

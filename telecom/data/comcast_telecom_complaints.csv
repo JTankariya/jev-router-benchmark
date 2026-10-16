@@ -1,0 +1,201 @@
+ticket_id,customer_complaint,channel,city,state,target_department
+TEL-0001,Comcast Cable Internet Speeds,Customer Care Call,Abingdon,Maryland,technical_network
+TEL-0003,Speed and Service,Internet,Acworth,Georgia,technical_network
+TEL-0009,Comcast extended outages,Customer Care Call,Alameda,California,technical_network
+TEL-0014,Internet speed,Internet,Albuquerque,New Mexico,technical_network
+TEL-0015,Internet Disconnects Every Night,Customer Care Call,Albuquerque,New Mexico,technical_network
+TEL-0017,Internet Availability and Speed,Customer Care Call,Alexandria,Indiana,technical_network
+TEL-0022,horrible cable service and customer service,Internet,Alexandria,Virginia,technical_network
+TEL-0040,Comcast blocking DirecTv signals,Customer Care Call,Ambridge,Pennsylvania,technical_network
+TEL-0042,Slow Internet Speed,Internet,Amherst,New Hampshire,technical_network
+TEL-0045,isp dishonest about speeds,Customer Care Call,Angels Camp,California,technical_network
+TEL-0068,Cable Modem rent for Internet access,Internet,Arlington Heights,Illinois,technical_network
+TEL-0070,Speed issues,Internet,Ashland,Virginia,technical_network
+TEL-0075,Speed of service,Customer Care Call,Atlanta,Georgia,technical_network
+TEL-0086,Cable service and telephone connect not complete,Customer Care Call,Atlanta,Georgia,technical_network
+TEL-0090,Comcast disconnecting service before due date,Internet,Atlanta,Georgia,technical_network
+TEL-0106,disconnection of service,Customer Care Call,Atlanta,Georgia,technical_network
+TEL-0115,Comcast speed integrity,Customer Care Call,Atlanta,Georgia,technical_network
+TEL-0128,Comcast internet and cable service,Customer Care Call,Atlanta,Georgia,technical_network
+TEL-0137,Internet connection both upload and download speeds,Customer Care Call,Attica,Indiana,technical_network
+TEL-0165,Comcast internet/cable,Internet,Baltimore,Maryland,technical_network
+TEL-0172,Internet speed not disclosed,Customer Care Call,Baltimore,Maryland,technical_network
+TEL-0173,Intermittent Service,Customer Care Call,Baltimore,Maryland,technical_network
+TEL-0177,Paying for high speed internet with Comcast. Consistently getting slow service.,Internet,Baltimore,Maryland,technical_network
+TEL-0180,COMCAST HIGH SPEED INTERNET MONOPOLY,Internet,Baltimore,Maryland,technical_network
+TEL-0181,ComCast cable In Maryland,Customer Care Call,Baltimore,Maryland,technical_network
+TEL-0186,"No internet, no cable",Customer Care Call,Barrington,Illinois,technical_network
+TEL-0187,Internet service slow and intermittent,Customer Care Call,Bartlett,Tennessee,technical_network
+TEL-0189,Week long issues with speed and no help from comcast,Internet,Bartonville,Illinois,technical_network
+TEL-0192,Comcast cable,Internet,Beach Haven,New Jersey,technical_network
+TEL-0204,download speeds slower than dial-up but paying for 25 Mbps,Internet,Bellevue,Washington,technical_network
+TEL-0214,Poor internet connection/dropped connection since installation of new modem,Internet,Bensalem,Pennsylvania,technical_network
+TEL-0220,Service refusal and lower than advertised speeds.,Internet,Berkeley Spring,West Virginia,technical_network
+TEL-0238,Comcast reduced my internet speed,Customer Care Call,Bloomington,Minnesota,technical_network
+TEL-0246,Comcast Speed Issues,Customer Care Call,Boca Raton,Florida,technical_network
+TEL-0249,Comcast disconnected my account without reason or notice,Customer Care Call,Boca Raton,Florida,technical_network
+TEL-0256,Comcast Slow Internet,Customer Care Call,Boston,Massachusetts,technical_network
+TEL-0257,Slow Internet Speeds,Customer Care Call,Boston,Massachusetts,technical_network
+TEL-0262,Comcast Outage/poor service 6/1,Customer Care Call,Bothell,Washington,technical_network
+TEL-0265,"Extremely low speeds, and no help",Internet,Boulder,Colorado,technical_network
+TEL-0268,low internet speed,Internet,Bourbonnais,Illinois,technical_network
+TEL-0275,Comcast Internet speeds,Internet,Branford,Connecticut,technical_network
+TEL-0276,Comcast slow internet service,Internet,Braselton,Georgia,technical_network
+TEL-0277,Comcast Slow Internet,Customer Care Call,Brentwood,California,technical_network
+TEL-0283,credit for service outage 6/23/15,Internet,Brick,New Jersey,technical_network
+TEL-0313,Slow Internet,Customer Care Call,Burlington,Vermont,technical_network
+TEL-0319,Slow Speed with the entire connection,Internet,Buzzards Bay,Massachusetts,technical_network
+TEL-0327,Internet Slowdown,Customer Care Call,Cambridge,Massachusetts,technical_network
+TEL-0346,internet speed,Customer Care Call,Carlisle,Pennsylvania,technical_network
+TEL-0351,Comcast Internet Speed,Customer Care Call,Carpentersville,Illinois,technical_network
+TEL-0360,Comcast Cable connection from street is underwater and structure is too high,Internet,Castro Valley,California,technical_network
+TEL-0002,Payment disappear - service got disconnected,Internet,Acworth,Georgia,billing_payments
+TEL-0010,Comcast Raising Prices and Not Being Available To Ask Why,Customer Care Call,Alameda,California,billing_payments
+TEL-0011,Billing after service was asked to be disconnected,Internet,Albuquerque,New Mexico,billing_payments
+TEL-0020,Failure to provide services that I am billed for.,Customer Care Call,Alexandria,Virginia,billing_payments
+TEL-0029,Unable to reach a Comcast agent for internet and billing issues.,Customer Care Call,Aloha,Oregon,billing_payments
+TEL-0035,Comcast not refunding my credit,Internet,Alpharetta,Georgia,billing_payments
+TEL-0039,"INTERNET , BILLING AND SERVIE ISSUES",Customer Care Call,Ambridge,Pennsylvania,billing_payments
+TEL-0046,Deceptive sales- change in billing amount etc.,Internet,Ann Arbor,Michigan,billing_payments
+TEL-0047,Comcast Billing Dispute,Internet,Ann Arbor,Michigan,billing_payments
+TEL-0049,Comcast Billing and Service Issues,Internet,Ann Arbor,Michigan,billing_payments
+TEL-0050,Cable prices rising,Internet,Ann Arbor,Michigan,billing_payments
+TEL-0063,Overbilling,Customer Care Call,Arlington,Virginia,billing_payments
+TEL-0078,Comcast billing problem,Internet,Atlanta,Georgia,billing_payments
+TEL-0080,Comcast services/billing issues,Customer Care Call,Atlanta,Georgia,billing_payments
+TEL-0081,Incorrect Bill,Customer Care Call,Atlanta,Georgia,billing_payments
+TEL-0096,they are forcing me for my bank account information by suspending my services for no reason (I also feel like they are committing corporate theft).,Internet,Atlanta,Georgia,billing_payments
+TEL-0101,Comcast won't quit charging me for modem rental,Internet,Atlanta,Georgia,billing_payments
+TEL-0107,Comcast Data Usage Charges,Customer Care Call,Atlanta,Georgia,billing_payments
+TEL-0109,Comcast will not let me discuss my bill or service with a representative,Customer Care Call,Atlanta,Georgia,billing_payments
+TEL-0110,Comcast billing frauds,Internet,Atlanta,Georgia,billing_payments
+TEL-0113,Comcast - Billing,Customer Care Call,Atlanta,Georgia,billing_payments
+TEL-0121,Comcast bill,Customer Care Call,Atlanta,Georgia,billing_payments
+TEL-0123,Unfair Billing Practices,Internet,Atlanta,Georgia,billing_payments
+TEL-0127,Not Acceptable Internet Additional Charge.,Customer Care Call,Atlanta,Georgia,billing_payments
+TEL-0134,Repeated Erroneous Modem Rental Charge,Customer Care Call,Atlanta,Georgia,billing_payments
+TEL-0142,Comcast (Xfinity) Monopolistic Billing Practices,Internet,Auburn,Washington,billing_payments
+TEL-0145,double billing after change of service,Internet,Augusta,Georgia,billing_payments
+TEL-0151,Incorrect prices for new customers,Customer Care Call,Aurora,Illinois,billing_payments
+TEL-0154,MISC. CHARGES,Customer Care Call,Austell,Georgia,billing_payments
+TEL-0164,Termination Fee,Internet,Ballston Lake,New York,billing_payments
+TEL-0166,I AM BEING CHARGE DOUBLE FOR MY CABLE BILL.,Customer Care Call,Baltimore,Maryland,billing_payments
+TEL-0167,REPEATED Comcast billing issues,Customer Care Call,Baltimore,Maryland,billing_payments
+TEL-0170,Comcast does not disclose the Internet speed I'm paying for anywhere on my bill or online,Customer Care Call,Baltimore,Maryland,billing_payments
+TEL-0171,Internet speeds disclosure on bill,Internet,Baltimore,Maryland,billing_payments
+TEL-0174,Comcast billing practices,Internet,Baltimore,Maryland,billing_payments
+TEL-0178,Comcast Monopoly on Packages is costing me more money for same service,Customer Care Call,Baltimore,Maryland,billing_payments
+TEL-0179,"hidden fees, dropped internet connection",Internet,Baltimore,Maryland,billing_payments
+TEL-0182,Billing Dispute & Poor Customer Service,Internet,Baltimore,Maryland,billing_payments
+TEL-0196,Comcast Charges,Customer Care Call,Beaverton,Oregon,billing_payments
+TEL-0203,Double-billing,Internet,Bellevue,Washington,billing_payments
+TEL-0205,Comcast billing error,Internet,Bellingham,Washington,billing_payments
+TEL-0210,Monthly Charges Increased without any notice,Internet,Beltsville,Maryland,billing_payments
+TEL-0215,Comcast Billing,Internet,Bensalem,Pennsylvania,billing_payments
+TEL-0216,Bank Fee Refund Reques,Internet,Berkeley,California,billing_payments
+TEL-0217,COMCAST Unfair Charge,Internet,Berkeley,California,billing_payments
+TEL-0218,Wrongful Billing,Customer Care Call,Berkeley,California,billing_payments
+TEL-0219,Billing problem,Customer Care Call,Berkeley Lake,Georgia,billing_payments
+TEL-0223,Over Charge by lying,Internet,Blacksburg,Virginia,billing_payments
+TEL-0224,Comcast keeps changing bill and every time gives new reasons!!,Internet,Blackwood,New Jersey,billing_payments
+TEL-0227,Comcast billing after discontinuation of service,Customer Care Call,Blairstown,New Jersey,billing_payments
+TEL-0004,Comcast Imposed a New Usage Cap of 300GB that punishes streaming.,Internet,Acworth,Georgia,data_caps_policy
+TEL-0006,ISP Charging for arbitrary data limits with overage fees,Internet,Acworth,Georgia,data_caps_policy
+TEL-0007,Throttling service and unreasonable data caps,Customer Care Call,Acworth,Georgia,data_caps_policy
+TEL-0031,Comcast data caps,Internet,Alpharetta,Georgia,data_caps_policy
+TEL-0032,Comcast Internet Data Cap,Internet,Alpharetta,Georgia,data_caps_policy
+TEL-0073,Comcast using a Data Cap to take however much money they like,Internet,Atlanta,Georgia,data_caps_policy
+TEL-0074,Comcast Data Cap,Customer Care Call,Atlanta,Georgia,data_caps_policy
+TEL-0076,Comcast's Monopolistic Practices and Data Capping,Internet,Atlanta,Georgia,data_caps_policy
+TEL-0077,"Comcast data cap ""trials""",Internet,Atlanta,Georgia,data_caps_policy
+TEL-0082,Legality of data caps,Internet,Atlanta,Georgia,data_caps_policy
+TEL-0085,Comcast Misled With Overage Policy,Internet,Atlanta,Georgia,data_caps_policy
+TEL-0087,Comcast data cap,Customer Care Call,Atlanta,Georgia,data_caps_policy
+TEL-0091,comcast data cap,Internet,Atlanta,Georgia,data_caps_policy
+TEL-0100,"Comcast bandwidth data caps in Atlanta, GA",Internet,Atlanta,Georgia,data_caps_policy
+TEL-0102,Comcast download caps,Internet,Atlanta,Georgia,data_caps_policy
+TEL-0117,Comcast Atlanta Data Caps,Internet,Atlanta,Georgia,data_caps_policy
+TEL-0118,Comcast Atlanta Data Caps,Internet,Atlanta,Georgia,data_caps_policy
+TEL-0120,Overage on 300GB data plan with Comcast,Customer Care Call,Atlanta,Georgia,data_caps_policy
+TEL-0122,Comcast Data Cap,Customer Care Call,Atlanta,Georgia,data_caps_policy
+TEL-0124,Comcast data caps,Customer Care Call,Atlanta,Georgia,data_caps_policy
+TEL-0129,"Comcast deceptive advertising, overage charges",Internet,Atlanta,Georgia,data_caps_policy
+TEL-0130,Comcast Data Caps,Internet,Atlanta,Georgia,data_caps_policy
+TEL-0133,Comcast Data Usage Limits,Internet,Atlanta,Georgia,data_caps_policy
+TEL-0139,"Comcast ""50 mb/s"" speed and throttling",Internet,Auburn,Georgia,data_caps_policy
+TEL-0143,Internet Throttling,Internet,Auburn,Washington,data_caps_policy
+TEL-0144,Data Usage Overage,Internet,Augusta,Georgia,data_caps_policy
+TEL-0146,Bandwidth Caps becoming excessive,Internet,Augusta,Georgia,data_caps_policy
+TEL-0147,Comcast data limits,Customer Care Call,Augusta,Georgia,data_caps_policy
+TEL-0152,Comcast is throttling my internet,Customer Care Call,Aurora,Illinois,data_caps_policy
+TEL-0155,Comast data cap,Customer Care Call,Austell,Georgia,data_caps_policy
+TEL-0156,Comcast throttles internet,Customer Care Call,Austin,Texas,data_caps_policy
+TEL-0157,throttling,Internet,Avon,Colorado,data_caps_policy
+TEL-0176,Consistently Slow and Throttled Internet Speeds,Internet,Baltimore,Maryland,data_caps_policy
+TEL-0184,Comcast throttle,Customer Care Call,Bargersville,Indiana,data_caps_policy
+TEL-0190,Data Usage Cap Maine,Customer Care Call,Bath,Maine,data_caps_policy
+TEL-0208,Residentail Broadband Data Caps,Internet,Belmont,Michigan,data_caps_policy
+TEL-0229,Comcast data cap,Internet,Bloomingdale,Georgia,data_caps_policy
+TEL-0234,Suspected Throttling,Internet,Bloomington,Illinois,data_caps_policy
+TEL-0266,Comcast throttling download speed.,Customer Care Call,Boulder,Colorado,data_caps_policy
+TEL-0287,Comcast Throttling My Internet,Customer Care Call,Brighton,Colorado,data_caps_policy
+TEL-0305,Internet Throttling,Internet,Broomfield,Colorado,data_caps_policy
+TEL-0309,Data Limit,Customer Care Call,Brunswick,Maine,data_caps_policy
+TEL-0320,Comcast Possibly Throttling my Internet,Internet,Camas,Washington,data_caps_policy
+TEL-0338,Comcast Usage Caps,Customer Care Call,Canton,Georgia,data_caps_policy
+TEL-0339,Comcast Data Usage Caps,Internet,Canton,Georgia,data_caps_policy
+TEL-0340,Data Caps and the Extortion Methods of Comcast,Customer Care Call,Canton,Georgia,data_caps_policy
+TEL-0356,comcast data cap,Internet,Cartersville,Georgia,data_caps_policy
+TEL-0358,Comcast Internet Data Cap LIES,Customer Care Call,Cartersville,Georgia,data_caps_policy
+TEL-0364,Comcast Internet Usage Cap,Internet,Central City,Kentucky,data_caps_policy
+TEL-0366,Comcast Corporation Data Caps,Customer Care Call,Chamblee,Georgia,data_caps_policy
+TEL-0026,bait and switch,Internet,Algonquin,Illinois,customer_retention
+TEL-0027,Comcast Customer Service,Internet,Aliquippa,Pennsylvania,customer_retention
+TEL-0028,Apartment Management's Exclusivity Contract with Comcast,Customer Care Call,Allston,Massachusetts,customer_retention
+TEL-0044,Comcast bandwidth every evening drops to 10% of what is promised to our business,Internet,Angels Camp,California,customer_retention
+TEL-0057,Comcast credit after cancellation has not been received after more than a year,Customer Care Call,Arlington,Virginia,customer_retention
+TEL-0058,Comcast False Promises,Internet,Arlington,Virginia,customer_retention
+TEL-0064,"Comcast - failure to provide service, refusal to void contract",Customer Care Call,Arlington,Virginia,customer_retention
+TEL-0072,Fraudulent claims reported to collections agency,Customer Care Call,Atlanta,Georgia,customer_retention
+TEL-0088,Comcast Won't Cancel My Service,Customer Care Call,Atlanta,Georgia,customer_retention
+TEL-0098,Comcast customer service,Customer Care Call,Atlanta,Georgia,customer_retention
+TEL-0103,Horrible Comcast Customer Service,Customer Care Call,Atlanta,Georgia,customer_retention
+TEL-0105,Bad Customer Service,Internet,Atlanta,Georgia,customer_retention
+TEL-0119,COMCAST Poor Customer Service,Internet,Atlanta,Georgia,customer_retention
+TEL-0148,Unable to cancel xfinity home security,Customer Care Call,Aurora,Colorado,customer_retention
+TEL-0183,Comcast change contract,Customer Care Call,Baltimore,Maryland,customer_retention
+TEL-0199,Deceptive Practices,Internet,Bedford,Pennsylvania,customer_retention
+TEL-0200,Comcast fraud,Internet,Bel Air,Maryland,customer_retention
+TEL-0213,Comcast Service and customer service representative,Internet,Bensalem,Pennsylvania,customer_retention
+TEL-0254,bait and switch pricing,Customer Care Call,Bordentown,New Jersey,customer_retention
+TEL-0264,False contract repersentation,Customer Care Call,Boulder,Colorado,customer_retention
+TEL-0292,Home Security Forgery/Fraud,Internet,Broadlands,Virginia,customer_retention
+TEL-0298,Poor customer service,Customer Care Call,Brookhaven,Pennsylvania,customer_retention
+TEL-0324,difficulty to cancel services before moving,Internet,Cambridge,Massachusetts,customer_retention
+TEL-0345,"Bait and switch, unfulfilled incentives",Internet,Carbondale,Colorado,customer_retention
+TEL-0362,Comcast refuses to uhold contract for 2 years phone/internet,Customer Care Call,Cazadero,California,customer_retention
+TEL-0385,Terrible customer service and process,Customer Care Call,Chesterfield,Virginia,customer_retention
+TEL-0388,Comcast Service and Customer service issues,Internet,Chicago,Illinois,customer_retention
+TEL-0407,Comcast is giving me poor quality customer service.,Customer Care Call,Chicago,Illinois,customer_retention
+TEL-0459,very poor customer service,Customer Care Call,Colonia,New Jersey,customer_retention
+TEL-0461,Another Fraudulenct collection claim from Comcast,Customer Care Call,Colorado Springs,Colorado,customer_retention
+TEL-0463,"Tried to cancel, was lied to about change in service",Customer Care Call,Colorado Springs,Colorado,customer_retention
+TEL-0489,Customer Service Representative Lied About Rates and Promotions,Internet,Corvallis,Oregon,customer_retention
+TEL-0505,Comcast bait and switch,Internet,Cumming,Georgia,customer_retention
+TEL-0510,Extorted into signing up for multi-year contract,Internet,Cumming,Georgia,customer_retention
+TEL-0551,Deceptive sales tactics,Customer Care Call,Deerfield Beach,Florida,customer_retention
+TEL-0566,Comcast refusal to cancel service under false contract claims,Internet,Denver,Colorado,customer_retention
+TEL-0592,Fraudolent pratice,Internet,Detroit,Michigan,customer_retention
+TEL-0610,Fraudulent account,Internet,Downers Grove,Illinois,customer_retention
+TEL-0651,Comcast Failed to Switch our Systems to New Location and Shut Down the Current Location,Internet,Ellicott City,Maryland,customer_retention
+TEL-0712,Deceptive Trade,Internet,Fort Pierce,Florida,customer_retention
+TEL-0715,Xfinity promise to pay me $300 to join,Internet,Fountain,Colorado,customer_retention
+TEL-0724,Comcast business keeps moving my same-day trouble appointment to the next day,Internet,Franklin,Tennessee,customer_retention
+TEL-0731,Comcast fradulently gets contract signed by my wife,Customer Care Call,Fremont,California,customer_retention
+TEL-0741,Deceptive trade,Internet,Ft Pierce,Florida,customer_retention
+TEL-0785,Issues with Comcast Customer Service due to loss of Internet,Customer Care Call,Greenwood Village,Colorado,customer_retention
+TEL-0793,Comcast Fraud?,Internet,Grosse Pointe Park,Michigan,customer_retention
+TEL-0816,Unfair and Deceptive Trade Practices,Internet,Hattiesburg,Mississippi,customer_retention
+TEL-0839,One Sided Contracts,Internet,Hillsborough,New Jersey,customer_retention
+TEL-0844,comcast fraudulent pricing and practices,Customer Care Call,Hobart,Indiana,customer_retention
+TEL-0865,comcast contract problem,Internet,Houston,Texas,customer_retention

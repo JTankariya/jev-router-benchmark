@@ -1,0 +1,56 @@
+[
+  {
+    "threshold": 0.6,
+    "calls_avoided_pct": 88.0,
+    "jev_decisions": 44,
+    "llm_fallbacks": 6,
+    "total_tickets": 50,
+    "accuracy": 90.0,
+    "avg_latency_ms": 148.4
+  },
+  {
+    "threshold": 0.7,
+    "calls_avoided_pct": 82.0,
+    "jev_decisions": 41,
+    "llm_fallbacks": 9,
+    "total_tickets": 50,
+    "accuracy": 90.0,
+    "avg_latency_ms": 56.4
+  },
+  {
+    "threshold": 0.8,
+    "calls_avoided_pct": 82.0,
+    "jev_decisions": 41,
+    "llm_fallbacks": 9,
+    "total_tickets": 50,
+    "accuracy": 90.0,
+    "avg_latency_ms": 56.5
+  },
+  {
+    "threshold": 0.85,
+    "calls_avoided_pct": 82.0,
+    "jev_decisions": 41,
+    "llm_fallbacks": 9,
+    "total_tickets": 50,
+    "accuracy": 94.0,
+    "avg_latency_ms": 56.4
+  },
+  {
+    "threshold": 0.9,
+    "calls_avoided_pct": 78.0,
+    "jev_decisions": 39,
+    "llm_fallbacks": 11,
+    "total_tickets": 50,
+    "accuracy": 96.0,
+    "avg_latency_ms": 68.6
+  },
+  {
+    "threshold": 0.95,
+    "calls_avoided_pct": 72.0,
+    "jev_decisions": 36,
+    "llm_fallbacks": 14,
+    "total_tickets": 50,
+    "accuracy": 96.0,
+    "avg_latency_ms": 87.1
+  }
+]

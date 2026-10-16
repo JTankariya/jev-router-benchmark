@@ -1,0 +1,20 @@
+{
+  "benchmark_timestamp": "2026-10-16T22:46:40.454515+00:00",
+  "dataset": "Comcast Telecom Complaints Dataset",
+  "total_tickets": 5,
+  "configured_threshold": 0.7,
+  "baseline_llm": {
+    "llm_calls": 5,
+    "accuracy": 0.8,
+    "avg_latency_ms": 6197.04789200332,
+    "cost_usd": 0.0007499999999999999
+  },
+  "jev_first": {
+    "llm_calls": 1,
+    "jev_decisions": 4,
+    "calls_avoided_pct": 80.0,
+    "accuracy": 0.8,
+    "avg_latency_ms": 817.7764581923839,
+    "cost_usd": 0.0001626
+  }
+}

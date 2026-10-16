@@ -24,6 +24,7 @@ This repository benchmarks the performance, cost, and latency advantages of `lan
 | **Manufacturing & Heavy Industry** | ✅ **Active** | [IHM Stefanini Industrial Safety Database](https://www.kaggle.com/datasets/ihmstefanini/industrial-safety-and-health-analytics-database) (CC0) | **-76% LLM calls**, **82ms latency** | [`manufacturing/`](./manufacturing/) |
 | **Supply Chain & Logistics** | ✅ **Active** | [openFDA Food Enforcement Recall Database](https://api.fda.gov/food/enforcement.json) (Public Domain / 17 U.S.C. § 105) | **-72% LLM calls**, **88ms latency** | [`supply_chain/`](./supply_chain/) |
 | **Healthcare & Clinical Triage** | ✅ **Active** | [MTSamples Clinical Transcription Database](https://www.kaggle.com/datasets/tboyle10/medicaltranscriptions) (CC0) | **-98% LLM calls**, **119ms latency** | [`healthcare/`](./healthcare/) |
+| **Telecommunications & Customer Support** | ✅ **Active** | [Comcast Consumer Complaints Dataset](https://www.kaggle.com/datasets/archangan/comcast-complain-dataset) (CC0) | **-84% LLM calls**, **56ms latency** | [`telecom/`](./telecom/) |
 | **Financial Services & Banking** | 🔜 *Roadmap* | Transaction fraud & dispute classification | *Coming soon* | `finance/` |
 | **IT Service Desk & Customer Ops** | 🔜 *Roadmap* | Enterprise support ticket routing | *Coming soon* | `support/` |
 
@@ -70,6 +71,10 @@ python supply_chain/benchmark.py --sweep
 # Healthcare & Clinical Triage Benchmark
 python healthcare/benchmark.py --sample 50
 python healthcare/benchmark.py --sweep
+
+# Telecommunications Customer Support Benchmark
+python telecom/benchmark.py --sample 50
+python telecom/benchmark.py --sweep
 ```
 
 ---
@@ -78,6 +83,9 @@ python healthcare/benchmark.py --sweep
 
 All datasets used in this repository are verified for open licensing compliance:
 - **Manufacturing:** Licensed under **CC0 1.0 Universal (Public Domain Dedication)**. See [`manufacturing/data/DATASET_LICENSE.md`](./manufacturing/data/DATASET_LICENSE.md) for full terms.
+- **Supply Chain:** Public domain government records (17 U.S.C. § 105). See [`supply_chain/data/DATASET_LICENSE.md`](./supply_chain/data/DATASET_LICENSE.md).
+- **Healthcare:** Licensed under **CC0 1.0 Universal (Public Domain Dedication)** (HIPAA Safe Harbor de-identified). See [`healthcare/data/DATASET_LICENSE.md`](./healthcare/data/DATASET_LICENSE.md).
+- **Telecommunications:** Licensed under **CC0 1.0 Universal (Public Domain Dedication)** (FCC consumer filings). See [`telecom/data/DATASET_LICENSE.md`](./telecom/data/DATASET_LICENSE.md).
 - Future industry datasets added to this repo will strictly adhere to permissive open licenses (CC0, MIT, Apache 2.0, or CC-BY).
 
 ---

@@ -1,0 +1,6 @@
+ticket_id,complaint_preview,expected_department,routed_to,correct,decided_by,latency_ms
+TEL-0215,Comcast Billing,billing_payments,billing_payments,True,jev,186.1
+TEL-0186,"No internet, no cable",technical_network,technical_network,True,jev,118.7
+TEL-0133,Comcast Data Usage Limits,data_caps_policy,data_caps_policy,True,jev,102.0
+TEL-0844,comcast fraudulent pricing and practices,customer_retention,billing_payments,False,llm,3565.6
+TEL-0077,"Comcast data cap ""trials""",data_caps_policy,data_caps_policy,True,jev,116.5
