@@ -21,9 +21,9 @@ This repository benchmarks the performance, cost, and latency advantages of `lan
 
 | Domain | Status | Dataset | Key Result | Directory |
 |---|---|---|---|---|
-| **Manufacturing & Heavy Industry** | ✅ **Active** | [IHM Stefanini Industrial Safety Database](https://www.kaggle.com/datasets/ihmstefanini/industrial-safety-and-health-analytics-database) (CC0) | **-76% LLM calls**, **116ms latency** | [`manufacturing/`](./manufacturing/) |
+| **Manufacturing & Heavy Industry** | ✅ **Active** | [IHM Stefanini Industrial Safety Database](https://www.kaggle.com/datasets/ihmstefanini/industrial-safety-and-health-analytics-database) (CC0) | **-76% LLM calls**, **82ms latency** | [`manufacturing/`](./manufacturing/) |
 | **Supply Chain & Logistics** | ✅ **Active** | [openFDA Food Enforcement Recall Database](https://api.fda.gov/food/enforcement.json) (Public Domain / 17 U.S.C. § 105) | **-72% LLM calls**, **88ms latency** | [`supply_chain/`](./supply_chain/) |
-| **Healthcare & Clinical Triage** | 🔜 *Roadmap* | Clinical emergency / patient triage records | *Coming soon* | `healthcare/` |
+| **Healthcare & Clinical Triage** | ✅ **Active** | [MTSamples Clinical Transcription Database](https://www.kaggle.com/datasets/tboyle10/medicaltranscriptions) (CC0) | **-98% LLM calls**, **119ms latency** | [`healthcare/`](./healthcare/) |
 | **Financial Services & Banking** | 🔜 *Roadmap* | Transaction fraud & dispute classification | *Coming soon* | `finance/` |
 | **IT Service Desk & Customer Ops** | 🔜 *Roadmap* | Enterprise support ticket routing | *Coming soon* | `support/` |
 
@@ -56,7 +56,7 @@ GOOGLE_API_KEY="your_google_api_key"    # Optional: for live Gemini LLM baseline
 
 ### 3. Run a Benchmark
 
-Run either industry benchmark:
+Run any industry benchmark:
 
 ```bash
 # Manufacturing Domain Benchmark
@@ -66,6 +66,10 @@ python manufacturing/benchmark.py --sweep
 # Supply Chain & Logistics Domain Benchmark
 python supply_chain/benchmark.py --sample 50
 python supply_chain/benchmark.py --sweep
+
+# Healthcare & Clinical Triage Benchmark
+python healthcare/benchmark.py --sample 50
+python healthcare/benchmark.py --sweep
 ```
 
 ---

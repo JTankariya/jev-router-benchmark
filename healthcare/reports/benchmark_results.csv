@@ -1,0 +1,51 @@
+encounter_id,sample_name,clinical_preview,expected_department,routed_to,correct,decided_by,latency_ms
+ENC-3478,Paracentesis - Ultrasound-Guided,Ultrasound-Guided Paracentesis for Ascites,gastroenterology,gastroenterology,True,jev,449.4
+ENC-3475,Small Bowel Obstruction,"History of abdominal pain, obstipation, and distention with nausea and vomiting ",gastroenterology,gastroenterology,True,jev,99.1
+ENC-4634,Transesophageal Echocardiogram - 1,Transesophageal echocardiogram for aortic stenosis. Normal left ventricular size,cardiology,cardiology,True,jev,128.7
+ENC-3483,Nissen Fundoplication,Nissen fundoplication. A 2 cm midline incision was made at the junction of the u,gastroenterology,gastroenterology,True,jev,100.0
+ENC-2009,Youngswick Osteotomy,Youngswick osteotomy with internal screw fixation of the first right metatarsoph,orthopedics,orthopedics,True,jev,106.5
+ENC-2024,Total Knee Arthroplasty - Right,"Right total knee arthroplasty - Osteoarthritis, right knee.",orthopedics,orthopedics,True,jev,97.3
+ENC-4630,Transesophageal Echocardiogram,Transesophageal echocardiogram and direct current cardioversion.,cardiology,cardiology,True,jev,95.3
+ENC-4620,Triple Lumen Catheter Insertion,Insertion of a right brachial artery arterial catheter and a right subclavian ve,cardiology,gastroenterology,False,jev,105.3
+ENC-2769,Suboccipital Craniectomy,Right suboccipital craniectomy for resection of tumor using the microscope modif,neurology,neurology,True,jev,106.2
+ENC-2801,Neurologic Consultation,Neurologic consultation was requested to evaluate her seizure medication and let,neurology,neurology,True,jev,95.6
+ENC-4657,Stress Test Graded Exercise Treadmill,"Chest pain, Chest wall tenderness occurred with exercise.",cardiology,cardiology,True,jev,94.4
+ENC-4632,Tracheostomy Tube Consult,Patient referred for evaluation of tracheostomy tube placement and treatment rec,cardiology,cardiology,True,jev,148.5
+ENC-2036,Tissue Expander Insertion,"History of compartment syndrome, right lower extremity, status post 4 compartmen",orthopedics,orthopedics,True,jev,125.6
+ENC-2035,Total Hip Arthroplasty - Revision,"Infected right hip bipolar arthroplasty, status post excision and placement of a",orthopedics,orthopedics,True,jev,120.6
+ENC-2028,Transpedicular Decompression,Foraminal disc herniation of left L3-L4. Enlarged dorsal root ganglia of the lef,orthopedics,orthopedics,True,jev,100.1
+ENC-2020,Ulnar Nerve Transposition,Subcutaneous ulnar nerve transposition. A curvilinear incision was made over the,orthopedics,orthopedics,True,llm,399.5
+ENC-3485,Pancreatic Mass - Discharge Summary,The patient has had abdominal pain associated with a 30-pound weight loss and th,gastroenterology,gastroenterology,True,jev,93.7
+ENC-3502,Laparoscopic Cholecystectomy - 4,Acute cholecystitis. Laparoscopic cholecystectomy. The abdominal area was preppe,gastroenterology,gastroenterology,True,jev,118.5
+ENC-3465,Ttriple-Lumen Central Line,Insertion of a triple-lumen central line through the right subclavian vein by th,gastroenterology,gastroenterology,True,jev,108.1
+ENC-3469,Umbilical Hernia Repair,Umbilical hernia repair template. The umbilical hernia carefully reduced back in,gastroenterology,gastroenterology,True,jev,101.2
+ENC-3489,Lower Quadrant Pain,"Abdominal pain right lower quadrant, radiating around her side to her right flan",gastroenterology,gastroenterology,True,jev,111.2
+ENC-4622,Transesophageal Echocardiogram - 3,Transesophageal echocardiographic examination report. Aortic valve replacement. ,cardiology,cardiology,True,jev,97.2
+ENC-3490,Laparoscopy & Laparoscopic Appendectomy,Diagnostic laparoscopy and laparoscopic appendectomy. Right lower quadrant abdom,gastroenterology,gastroenterology,True,jev,102.1
+ENC-4627,Transesophageal Echocardiography Probe,Insertion of transesophageal echocardiography probe and unsuccessful insertion o,cardiology,cardiology,True,jev,100.0
+ENC-2787,Radiologic Exam - Spine,"Cervical, lumbosacral, thoracic spine flexion and extension to evaluate back and",neurology,orthopedics,False,jev,114.9
+ENC-2759,Video EEG - 1,The patient has a history of epilepsy and has also had non-epileptic events in t,neurology,neurology,True,jev,99.6
+ENC-2052,Slipped Capital Femoral Epiphysis (SCFE),Frontal and lateral views of the hip and pelvis.,orthopedics,orthopedics,True,jev,109.9
+ENC-3498,Laparoscopic Cholecystectomy - 9,Laparoscopic cholecystectomy. A 2 cm infraumbilical midline incision was made. T,gastroenterology,gastroenterology,True,jev,110.5
+ENC-2771,SOAP - Temporal Mass,MRI demonstrated right contrast-enhancing temporal mass.,neurology,neurology,True,jev,141.8
+ENC-2032,Total Hip Replacement,Right hip osteoarthritis. Total hip replacement on the right side.,orthopedics,orthopedics,True,jev,139.4
+ENC-2044,Styloidectomy,Excision of volar radial wrist mass (inflammatory synovitis) and radial styloide,orthopedics,orthopedics,True,jev,99.3
+ENC-2756,Video EEG - 3,"EEG during wakefulness and light sleep is abnormal with independent, positive sh",neurology,neurology,True,jev,115.8
+ENC-2031,Total Knee Arthoplasty - Right - 1,"Right total knee arthroplasty using a Biomet cemented components, 62.5-mm right ",orthopedics,orthopedics,True,jev,94.9
+ENC-4642,Thoracotomy & Bronchoscopy,"Empyema. Right thoracotomy, total decortication and intraoperative bronchoscopy.",cardiology,cardiology,True,jev,99.7
+ENC-2757,Wilson's Disease - Letter,A pleasant gentleman with a history of Wilson's disease who has been treated wit,neurology,gastroenterology,False,jev,94.3
+ENC-2766,Temporal Artery Biopsy,Bilateral temporal artery biopsy. Rule out temporal arteritis.,neurology,neurology,True,jev,101.7
+ENC-2765,Temporal Artery Biopsy - 1,"Headaches, question of temporal arteritis. Bilateral temporal artery biopsies.",neurology,neurology,True,jev,97.9
+ENC-3488,Liver Biopsy,Percutaneous liver biopsy. With the patient lying in the supine position and the,gastroenterology,gastroenterology,True,jev,97.5
+ENC-2786,Normal L-Spine MRI,MRI L-Spine - Bilateral lower extremity numbness,neurology,neurology,True,jev,104.9
+ENC-4640,Thoracotomy & Pleurectomy,Left thoracotomy with total pulmonary decortication and parietal pleurectomy. Em,cardiology,cardiology,True,jev,115.9
+ENC-2777,Reflex Sympathetic Dystrophy - Letter,Reflex sympathetic dystrophy of both lower extremities.,neurology,neurology,True,jev,100.7
+ENC-2037,Three Views - Ankle,Pain. Three views of the right ankle. Three views of the right ankle are obtaine,orthopedics,orthopedics,True,jev,98.6
+ENC-2800,Neuropsychological Evaluation - 5,The patient comes in for a neurology consultation regarding her difficult headac,neurology,neurology,True,jev,101.8
+ENC-2040,Tarsectomy,"Painful enlarged navicula, right foot. Osteochondroma of right fifth metatarsal.",orthopedics,orthopedics,True,jev,97.7
+ENC-4613,Trouble breathing,Patient with worsening shortness of breath and cough.,cardiology,cardiology,True,jev,96.3
+ENC-4637,Thromboendarterectomy,"Thromboendarterectomy of right common, external, and internal carotid artery uti",cardiology,cardiology,True,jev,98.0
+ENC-3510,Laparoscopic Cholecystectomy,Standard Laparoscopic Cholecystectomy Operative Note.,gastroenterology,gastroenterology,True,jev,94.9
+ENC-3474,Status Post Liver Transplant,A 10-year-old with a history of biliary atresia and status post orthotopic liver,gastroenterology,gastroenterology,True,jev,104.2
+ENC-2033,Total Knee Replacement - NexGen,NexGen left total knee replacement. Degenerative arthritis of left knee. The pat,orthopedics,orthopedics,True,jev,101.7
+ENC-4636,Thrombectomy,"Thrombosed left forearm loop fistula graft, chronic renal failure, and hyperkale",cardiology,cardiology,True,jev,104.7
